@@ -1,0 +1,132 @@
+"date","result_num","freshwater","forecast","uncertainty","nearterm","model_approach","notes","hydrological"
+"2/24/2022 9:33:07",1,"yes; surface water","forecast","yes","no",NA,NA,NA
+"2/24/2022 9:35:01",2,"yes; surface water","forecast","no","no",NA,NA,NA
+"2/24/2022 9:35:57",3,"yes; surface water","none of the above",NA,NA,NA,NA,NA
+"2/24/2022 9:39:06",4,"yes; surface water","forecast","no","no",NA,NA,NA
+"2/24/2022 9:43:06",5,"yes; surface water","none of the above",NA,NA,NA,NA,NA
+"2/24/2022 9:43:56",6,"yes; groundwater","forecast","yes","no",NA,NA,NA
+"2/24/2022 9:44:30",7,"yes; surface water","forecast","yes","no",NA,NA,NA
+"2/24/2022 9:44:59",8,"yes; surface water","forecast","yes","yes",NA,NA,NA
+"2/24/2022 9:48:27",10,"yes; surface water","forecast","yes","yes",NA,NA,NA
+"2/24/2022 9:50:47",11,"yes; surface water","hindcast","yes","yes",NA,NA,NA
+"2/24/2022 9:51:24",12,"yes; surface water","none of the above",NA,NA,NA,NA,NA
+"2/24/2022 9:52:24",13,"yes; surface water","forecast","yes","yes",NA,NA,NA
+"2/24/2022 9:54:41",14,"yes; surface water","forecast","no","no",NA,NA,NA
+"2/24/2022 9:56:48",15,"yes; surface water","forecast","no","yes",NA,NA,NA
+"2/24/2022 10:00:14",16,"yes; surface water","none of the above","no","yes",NA,NA,NA
+"2/24/2022 10:04:03",18,"yes; surface water","none of the above",NA,NA,NA,NA,NA
+"2/24/2022 10:06:06",19,"yes; surface water","none of the above",NA,NA,NA,NA,NA
+"2/24/2022 10:07:30",20,"yes; surface water","forecast","no","no",NA,NA,NA
+"2/24/2022 10:10:17",21,"yes; surface water","hindcast","no","yes",NA,NA,NA
+"2/24/2022 10:16:29",22,"yes; surface water","forecast","no","yes",NA,NA,NA
+"2/24/2022 10:18:37",23,"yes; surface water","forecast","no","no",NA,NA,NA
+"2/24/2022 10:20:14",24,"yes; surface water","forecast","no","no",NA,NA,NA
+"2/24/2022 10:23:54",25,"yes; surface water","forecast","no","yes",NA,NA,NA
+"2/24/2022 10:26:27",26,"yes; surface water","forecast","yes","no",NA,NA,NA
+"2/24/2022 10:27:21",27,"yes; surface water","forecast","yes","yes",NA,NA,NA
+"2/24/2022 10:30:13",28,"yes; surface water","forecast","no","no",NA,NA,NA
+"2/24/2022 12:18:13",29,"yes; surface water","hindcast","yes","yes",NA,NA,NA
+"2/24/2022 12:19:22",30,"yes; surface water","none of the above",NA,NA,NA,NA,NA
+"2/24/2022 12:25:04",32,"yes; surface water","forecast","no","yes",NA,NA,NA
+"2/24/2022 12:31:35",33,"yes; surface water","forecast","no","no",NA,NA,NA
+"2/24/2022 12:33:34",34,"yes; surface water","none of the above",NA,NA,NA,NA,NA
+"2/24/2022 12:35:39",35,"yes; surface water","hindcast","no","yes",NA,NA,NA
+"2/24/2022 12:38:15",36,"yes; surface water","forecast","no","yes",NA,NA,NA
+"2/24/2022 12:40:45",37,"yes; surface water","forecast","yes","no",NA,NA,NA
+"2/24/2022 12:41:59",38,"yes; groundwater","forecast","no","no",NA,NA,NA
+"2/24/2022 12:42:37",39,"yes; surface water","forecast","yes","yes",NA,NA,NA
+"2/24/2022 12:46:17",40,"yes; surface water","forecast","no","yes",NA,NA,NA
+"2/24/2022 12:49:08",41,"yes; surface water","hindcast","yes","yes",NA,NA,NA
+"2/24/2022 12:50:56",42,"yes; groundwater","nowcast","yes","yes",NA,NA,NA
+"2/24/2022 12:51:14",43,"yes; surface water","hindcast","yes","yes",NA,NA,NA
+"2/24/2022 12:56:25",44,"yes; surface water","none of the above",NA,NA,NA,NA,NA
+"2/24/2022 12:57:12",45,"yes; surface water","none of the above",NA,NA,NA,NA,NA
+"2/24/2022 13:05:17",46,"yes; surface water","none of the above",NA,NA,NA,NA,NA
+"2/24/2022 13:06:16",47,"yes; surface water","none of the above",NA,NA,NA,NA,NA
+"2/24/2022 13:09:27",48,"yes; surface water","forecast","yes","yes",NA,NA,NA
+"2/24/2022 13:12:45",50,"yes; surface water","hindcast","yes","yes",NA,NA,NA
+"2/24/2022 13:14:42",51,"yes; surface water","hindcast","yes","yes",NA,NA,NA
+"2/24/2022 13:15:30",52,"yes; surface water","none of the above",NA,NA,NA,NA,NA
+"2/24/2022 13:18:17",53,"yes; surface water","hindcast","no","yes",NA,NA,NA
+"2/24/2022 13:20:52",54,"yes; surface water","hindcast","yes","yes",NA,NA,NA
+"2/24/2022 13:23:36",55,"yes; surface water","hindcast","no","yes",NA,NA,NA
+"2/24/2022 13:24:24",56,"yes; surface water","hindcast","yes","yes",NA,NA,NA
+"2/24/2022 13:27:40",57,"yes; surface water","hindcast","yes","yes",NA,NA,NA
+"2/24/2022 13:32:03",58,"yes; surface water","forecast","no","yes",NA,NA,NA
+"2/26/2022 13:15:07",59,"yes; surface water","forecast","no","no","empirical model but not a time series model (e.g. multiple regression)",NA,NA
+"2/26/2022 13:17:38",60,"yes; surface water","forecast","no","yes","machine learning, either process-guided or not process-guided (e.g. ANN)",NA,NA
+"2/26/2022 13:22:21",61,"yes; surface water","forecast","no","yes","other",NA,NA
+"3/1/2022 8:08:45",62,"yes; surface water","hindcast","yes","yes",NA,NA,NA
+"3/1/2022 8:11:06",63,"yes; surface water","forecast","yes","no",NA,NA,NA
+"3/1/2022 8:16:54",65,"yes; surface water","hindcast","no","yes","machine learning, either process-guided or not process-guided (e.g. ANN)",NA,NA
+"3/1/2022 8:20:20",66,"yes; surface water","hindcast","yes","yes",NA,"has decision-making component",NA
+"3/1/2022 8:22:19",67,"yes; surface water","none of the above",NA,NA,NA,"CRITICALLY IMPORTANT we should look at this paper b/c it is not presenting a forecast but it analyzes what forecast horizon is most useful to reservoir mgmt!!!!!",NA
+"3/1/2022 8:24:52",68,"yes; surface water","hindcast","yes","yes",NA,NA,NA
+"3/1/2022 8:26:26",69,"yes; surface water","none of the above",NA,NA,NA,NA,NA
+"3/1/2022 8:28:26",70,"yes; surface water","forecast","no","yes","numerical ecosystem simulation (e.g. GLM-AED)",NA,NA
+"3/1/2022 8:31:34",71,"yes; surface water","hindcast","yes","yes",NA,NA,NA
+"3/1/2022 8:32:51",72,"yes; surface water","hindcast","yes","yes",NA,NA,NA
+"3/1/2022 8:35:08",73,"yes; surface water","hindcast","no","yes","machine learning, either process-guided or not process-guided (e.g. ANN)",NA,NA
+"3/1/2022 8:36:01",74,"yes; surface water","hindcast","yes","yes",NA,NA,NA
+"3/1/2022 8:39:12",75,"yes; surface water","hindcast","no","yes","other","uses both multiple regression and a process-based model",NA
+"3/1/2022 8:39:31",76,"yes; surface water","hindcast","yes","yes",NA,NA,NA
+"3/1/2022 8:40:59",77,"yes; surface water","hindcast","yes","yes",NA,NA,NA
+"3/1/2022 8:44:38",78,"yes; surface water","hindcast","no","yes","process-based but not ecosystem simulation (e.g. age-structured population model)",NA,NA
+"3/1/2022 8:46:58",79,"yes; surface water","none of the above",NA,NA,NA,NA,NA
+"3/1/2022 9:03:48",81,"yes; surface water","forecast","yes","no",NA,NA,NA
+"3/1/2022 9:07:38",82,"yes; surface water","none of the above",NA,NA,NA,NA,NA
+"3/1/2022 9:11:37",83,"yes; surface water","hindcast","no","yes","machine learning, either process-guided or not process-guided (e.g. ANN)",NA,NA
+"3/1/2022 9:16:28",84,"yes; surface water","forecast","no","yes","other","both process-based and machine learning models used",NA
+"3/1/2022 9:18:56",85,"yes; surface water","forecast","no","no","process-based but not ecosystem simulation (e.g. age-structured population model)",NA,NA
+"3/1/2022 9:19:56",86,"yes; surface water","none of the above",NA,NA,NA,NA,NA
+"3/1/2022 9:20:46",87,"yes; surface water","hindcast","yes","yes",NA,NA,NA
+"3/1/2022 9:23:56",88,"yes; surface water","forecast","no","yes","process-based but not ecosystem simulation (e.g. age-structured population model)","good example for probabilistic presentation of spatial forecasts being uncommon; do scenario-based analysis but don't propagate uncertainty",NA
+"3/1/2022 9:25:21",89,"yes; surface water","forecast","yes","no",NA,NA,NA
+"3/1/2022 9:28:38",90,"yes; surface water","forecast","no","no","process-based but not ecosystem simulation (e.g. age-structured population model)",NA,NA
+"3/1/2022 9:30:53",91,"yes; surface water","hindcast","can't tell","yes",NA,NA,NA
+"3/1/2022 9:34:50",92,"yes; surface water","forecast","yes","yes",NA,NA,NA
+"3/1/2022 9:35:50",93,"yes; surface water","none of the above",NA,NA,NA,NA,NA
+"3/1/2022 9:37:08",94,"yes; surface water","hindcast","yes","yes",NA,NA,NA
+"3/1/2022 9:37:43",95,"yes; surface water","none of the above",NA,NA,NA,NA,NA
+"3/1/2022 9:40:39",96,"yes; surface water","forecast","no","no","empirical model but not a time series model (e.g. multiple regression)",NA,NA
+"3/1/2022 9:46:50",97,"yes; surface water","hindcast","can't tell","yes",NA,NA,NA
+"3/1/2022 9:48:07",98,"yes; surface water","none of the above",NA,NA,NA,NA,NA
+"3/1/2022 9:49:32",99,"yes; surface water","hindcast","yes","yes",NA,NA,NA
+"3/1/2022 9:50:42",100,"yes; surface water","hindcast","yes","yes",NA,NA,NA
+"6/6/2022 13:03:16",211,"yes; surface water","hindcast","no","yes",NA,NA,"no"
+"3/1/2022 8:35:13",219,"yes; surface water","hindcast","yes","yes","numerical ecosystem simulation (e.g. GLM-AED)",NA,NA
+"3/1/2022 8:43:51",220,"yes; surface water","none of the above","no",NA,NA,NA,NA
+"3/1/2022 8:40:57",221,"yes; surface water","forecast","no","no","empirical model but not a time series model (e.g. multiple regression)",NA,NA
+"3/1/2022 10:33:06",222,"yes; surface water","hindcast","no","yes","machine learning, either process-guided or not process-guided (e.g. ANN)",NA,NA
+"3/1/2022 10:35:10",224,"yes; surface water","hindcast","no","yes","machine learning, either process-guided or not process-guided (e.g. ANN)",NA,NA
+"3/1/2022 10:38:52",225,"yes; surface water","hindcast","no","yes","machine learning, either process-guided or not process-guided (e.g. ANN)",NA,NA
+"6/6/2022 18:02:09",237,"yes; surface water","forecast","no","yes",NA,NA,"yes"
+"6/7/2022 10:30:18",304,"yes; surface water","forecast","no","yes",NA,NA,"no"
+"3/1/2022 7:47:59",384,"yes; surface water","forecast","no","no","process-based but not ecosystem simulation (e.g. age-structured population model)","This a proposed forecast system.",NA
+"3/1/2022 7:53:01",385,"yes; surface water","hindcast","no","yes","machine learning, either process-guided or not process-guided (e.g. ANN)",NA,NA
+"3/1/2022 7:56:17",386,"yes; surface water","none of the above",NA,"no","time series model (e.g. ARIMA)",NA,NA
+"3/1/2022 8:19:25",390,"yes; surface water","hindcast","no","yes","process-based but not ecosystem simulation (e.g. age-structured population model)",NA,NA
+"3/1/2022 8:26:09",393,"yes; surface water","hindcast","yes","yes","other","Used a model for reservoir demand",NA
+"3/1/2022 9:32:55",394,"yes; surface water","hindcast","no","yes","machine learning, either process-guided or not process-guided (e.g. ANN)",NA,NA
+"3/1/2022 9:35:27",395,"yes; groundwater","none of the above",NA,"no","machine learning, either process-guided or not process-guided (e.g. ANN)",NA,NA
+"3/1/2022 9:36:57",397,"yes; surface water",NA,NA,NA,NA,"Systematic review paper? For reference maybe",NA
+"3/1/2022 9:38:33",398,"yes; surface water",NA,NA,NA,NA,"Overview of river flood forecasting in Canada - interactions between forecasting centers",NA
+"3/1/2022 9:41:34",399,"yes; surface water","none of the above",NA,"no","machine learning, either process-guided or not process-guided (e.g. ANN)",NA,NA
+"3/1/2022 9:43:33",400,"yes; surface water","forecast","no","no","process-based but not ecosystem simulation (e.g. age-structured population model)",NA,NA
+"3/1/2022 9:46:00",401,"yes; surface water","forecast","no","yes","process-based but not ecosystem simulation (e.g. age-structured population model)",NA,NA
+"3/1/2022 9:47:23",402,"yes; surface water","hindcast","no","yes","machine learning, either process-guided or not process-guided (e.g. ANN)",NA,NA
+"3/1/2022 9:50:14",403,"yes; surface water","hindcast","yes","yes","process-based but not ecosystem simulation (e.g. age-structured population model)",NA,NA
+"3/1/2022 9:54:19",404,"yes; surface water","hindcast","no","yes","process-based but not ecosystem simulation (e.g. age-structured population model)",NA,NA
+"3/1/2022 9:57:03",405,"yes; surface water","hindcast","no","yes","empirical model but not a time series model (e.g. multiple regression)",NA,NA
+"6/7/2022 6:55:51",518,"yes; surface water","forecast","no",NA,NA,NA,"yes"
+"2/21/2022 11:08:24",549,"yes; surface water","hindcast","no","yes",NA,NA,NA
+"2/24/2022 12:53:11",550,"yes; surface water","forecast","no","yes",NA,NA,NA
+"2/24/2022 12:57:19",551,"yes; surface water","forecast","yes","yes",NA,NA,NA
+"2/24/2022 16:45:54",553,"yes; surface water","hindcast","no","yes",NA,NA,NA
+"2/24/2022 16:50:11",554,"yes; surface water","hindcast","can't tell","yes",NA,NA,NA
+"2/24/2022 16:53:14",555,"yes; surface water","hindcast","no","yes",NA,NA,NA
+"2/24/2022 16:55:21",556,"yes; surface water","hindcast","no","yes",NA,NA,NA
+"2/24/2022 16:57:00",557,"yes; surface water","hindcast","no","yes",NA,NA,NA
+"2/24/2022 17:02:04",558,"yes; surface water","hindcast","no","yes",NA,NA,NA
+"3/1/2022 10:21:40",559,"yes; surface water","hindcast","no","yes","numerical ecosystem simulation (e.g. GLM-AED)",NA,NA
+"3/1/2022 10:38:56",562,"yes; surface water","none of the above","no",NA,"empirical model but not a time series model (e.g. multiple regression)",NA,NA

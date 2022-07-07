@@ -1,0 +1,6 @@
+date,result_num,freshwater,forecast,uncertainty,nearterm,model_approach,notes,hydrological,email
+2/24/2022 12:50,42,yes; groundwater,nowcast,yes,yes,empirical,NA,yes,melofton@vt.edu
+3/1/2022 13:33,123,yes; surface water,forecast,yes,yes,ARIMA,NA,yes,melofton@vt.edu
+6/6/2022 6:46,124,yes; surface water,forecast,no,yes,machine,NA,no,melofton@vt.edu
+6/6/2022 12:22,191,yes; surface water,none of the above,,,,,,melofton@vt.edu
+6/9/2022 12:06,668,yes; surface water,forecast,no,yes,machine,NA,no,melofton@vt.edu

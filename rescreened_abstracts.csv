@@ -1,0 +1,132 @@
+date,result_num,freshwater,forecast,uncertainty,nearterm,model_approach,notes,hydrological
+2/24/2022 9:33,1,yes; surface water,forecast,yes,no,NA,NA,no
+2/24/2022 9:35,2,yes; surface water,forecast,yes,yes,NA,NA,no
+2/24/2022 9:35,3,yes; surface water,none of the above,NA,NA,NA,NA,yes
+2/24/2022 9:39,4,yes; surface water,forecast,no,no,"machine learning, either process-guided or not process-guided (e.g. ANN)",NA,no
+2/24/2022 9:43,5,yes; surface water,none of the above,NA,NA,NA,NA,no
+2/24/2022 9:43,6,yes; groundwater,forecast,yes,no,NA,NA,no
+2/24/2022 9:44,7,yes; surface water,forecast,yes,no,NA,NA,yes
+2/24/2022 9:44,8,yes; surface water,forecast,yes,yes,NA,NA,no
+2/24/2022 9:48,10,yes; surface water,forecast,yes,yes,NA,NA,yes
+2/24/2022 9:50,11,yes; surface water,hindcast,yes,yes,NA,NA,yes
+2/24/2022 9:51,12,yes; surface water,none of the above,NA,NA,NA,NA,no
+2/24/2022 9:52,13,yes; surface water,forecast,yes,yes,NA,NA,yes
+2/24/2022 9:54,14,yes; surface water,forecast,no,no,numerical ecosystem simulation (e.g. GLM-AED),NA,yes
+2/24/2022 9:56,15,yes; surface water,forecast,no,yes,numerical ecosystem simulation (e.g. GLM-AED),NA,yes
+2/24/2022 10:00,16,yes; surface water,none of the above,no,yes,NA,NA,no
+2/24/2022 10:04,18,yes; surface water,none of the above,NA,NA,NA,NA,yes
+2/24/2022 10:06,19,yes; surface water,none of the above,NA,NA,NA,NA,yes
+2/24/2022 10:07,20,yes; surface water,forecast,no,no,empirical model but not a time series model (e.g. multiple regression),NA,no
+2/24/2022 10:10,21,yes; surface water,hindcast,no,yes,numerical ecosystem simulation (e.g. GLM-AED),NA,no
+2/24/2022 10:16,22,yes; surface water,forecast,no,yes,time series model (e.g. ARIMA),NA,no
+2/24/2022 10:18,23,yes; surface water,forecast,no,no,"machine learning, either process-guided or not process-guided (e.g. ANN)",NA,yes
+2/24/2022 10:20,24,yes; surface water,forecast,no,no,numerical ecosystem simulation (e.g. GLM-AED),NA,yes
+2/24/2022 10:23,25,yes; surface water,forecast,no,yes,time series model (e.g. ARIMA),NA,yes
+2/24/2022 10:26,26,yes; surface water,forecast,yes,no,NA,NA,yes
+2/24/2022 10:27,27,yes; surface water,forecast,yes,yes,NA,NA,yes
+2/24/2022 10:30,28,yes; surface water,forecast,no,no,numerical ecosystem simulation (e.g. GLM-AED),NA,yes
+2/24/2022 12:18,29,yes; surface water,hindcast,yes,yes,NA,NA,yes
+2/24/2022 12:19,30,yes; surface water,none of the above,NA,NA,NA,NA,no
+2/24/2022 12:25,32,yes; surface water,none of the above,NA,NA,NA,IMPORTANT linking HAB forecasts to decision-making,no
+2/24/2022 12:31,33,yes; surface water,forecast,no,no,empirical model but not a time series model (e.g. multiple regression),NA,no
+2/24/2022 12:33,34,yes; surface water,none of the above,NA,NA,NA,NA,yes
+2/24/2022 12:35,35,yes; surface water,hindcast,no,yes,"machine learning, either process-guided or not process-guided (e.g. ANN)",NA,yes
+2/24/2022 12:38,36,yes; surface water,forecast,no,yes,numerical ecosystem simulation (e.g. GLM-AED),NA,yes
+2/24/2022 12:40,37,yes; surface water,forecast,yes,no,empirical model but not a time series model (e.g. multiple regression),NA,no
+2/24/2022 12:41,38,yes; groundwater,forecast,no,no,"machine learning, either process-guided or not process-guided (e.g. ANN)",NA,yes
+2/24/2022 12:42,39,yes; surface water,forecast,yes,yes,NA,NA,yes
+2/24/2022 12:46,40,yes; surface water,forecast,no,yes,empirical model but not a time series model (e.g. multiple regression),NA,yes
+2/24/2022 12:49,41,yes; surface water,hindcast,yes,yes,NA,NA,yes
+2/24/2022 12:50,42,yes; groundwater,nowcast,yes,yes,NA,NA,no
+2/24/2022 12:51,43,yes; surface water,hindcast,yes,yes,NA,NA,no
+2/24/2022 12:56,44,yes; surface water,none of the above,NA,NA,NA,NA,yes
+2/24/2022 12:57,45,yes; surface water,none of the above,NA,NA,NA,NA,no
+2/24/2022 13:05,46,yes; surface water,none of the above,NA,NA,NA,NA,yes
+2/24/2022 13:06,47,yes; surface water,none of the above,NA,NA,NA,NA,yes
+2/24/2022 13:09,48,yes; surface water,forecast,yes,yes,NA,NA,yes
+2/24/2022 13:12,50,yes; surface water,hindcast,yes,yes,NA,NA,yes
+2/24/2022 13:14,51,yes; surface water,hindcast,yes,yes,NA,NA,yes
+2/24/2022 13:15,52,yes; surface water,none of the above,NA,NA,NA,NA,yes
+2/24/2022 13:18,53,yes; surface water,hindcast,no,yes,numerical ecosystem simulation (e.g. GLM-AED),NA,no
+2/24/2022 13:20,54,yes; surface water,hindcast,yes,yes,NA,NA,yes
+2/24/2022 13:23,55,yes; surface water,hindcast,no,yes,"machine learning, either process-guided or not process-guided (e.g. ANN)",NA,yes
+2/24/2022 13:24,56,yes; surface water,hindcast,yes,yes,NA,NA,yes
+2/24/2022 13:27,57,yes; surface water,hindcast,yes,yes,NA,NA,yes
+2/24/2022 13:32,58,yes; surface water,forecast,no,yes,"machine learning, either process-guided or not process-guided (e.g. ANN)",NA,yes
+2/26/2022 13:15,59,yes; surface water,forecast,no,no,empirical model but not a time series model (e.g. multiple regression),NA,no
+2/26/2022 13:17,60,yes; surface water,forecast,no,yes,"machine learning, either process-guided or not process-guided (e.g. ANN)",NA,yes
+2/26/2022 13:22,61,yes; surface water,forecast,no,yes,other,NA,yes
+3/1/2022 8:08,62,yes; surface water,hindcast,yes,yes,NA,NA,yes
+3/1/2022 8:11,63,yes; surface water,forecast,yes,no,NA,NA,no
+3/1/2022 8:16,65,yes; surface water,hindcast,no,yes,"machine learning, either process-guided or not process-guided (e.g. ANN)",NA,no
+3/1/2022 8:20,66,yes; surface water,hindcast,yes,yes,NA,has decision-making component,yes
+3/1/2022 8:22,67,yes; surface water,none of the above,NA,NA,NA,CRITICALLY IMPORTANT we should look at this paper b/c it is not presenting a forecast but it analyzes what forecast horizon is most useful to reservoir mgmt!!!!!,yes
+3/1/2022 8:24,68,yes; surface water,hindcast,yes,yes,NA,NA,no
+3/1/2022 8:26,69,yes; surface water,none of the above,NA,NA,NA,NA,yes
+3/1/2022 8:28,70,yes; surface water,forecast,no,yes,numerical ecosystem simulation (e.g. GLM-AED),NA,no
+3/1/2022 8:31,71,yes; surface water,hindcast,yes,yes,NA,NA,yes
+3/1/2022 8:32,72,yes; surface water,hindcast,yes,yes,NA,NA,yes
+3/1/2022 8:35,73,yes; surface water,hindcast,no,yes,"machine learning, either process-guided or not process-guided (e.g. ANN)",NA,yes
+3/1/2022 8:36,74,yes; surface water,hindcast,yes,yes,NA,NA,yes
+3/1/2022 8:39,75,yes; surface water,hindcast,no,yes,other,uses both multiple regression and a process-based model,yes
+3/1/2022 8:39,76,yes; surface water,hindcast,yes,yes,NA,NA,no
+3/1/2022 8:40,77,yes; surface water,hindcast,yes,yes,NA,NA,yes
+3/1/2022 8:44,78,yes; surface water,hindcast,no,yes,process-based but not ecosystem simulation (e.g. age-structured population model),NA,yes
+3/1/2022 8:46,79,yes; surface water,none of the above,NA,NA,NA,NA,yes
+3/1/2022 9:03,81,yes; surface water,forecast,yes,no,NA,NA,no
+3/1/2022 9:07,82,yes; surface water,none of the above,NA,NA,NA,NA,yes
+3/1/2022 9:11,83,yes; surface water,hindcast,no,yes,"machine learning, either process-guided or not process-guided (e.g. ANN)",NA,yes
+3/1/2022 9:16,84,yes; surface water,forecast,no,yes,other,both process-based and machine learning models used,no
+3/1/2022 9:18,85,yes; surface water,forecast,no,no,process-based but not ecosystem simulation (e.g. age-structured population model),NA,no
+3/1/2022 9:19,86,yes; surface water,none of the above,NA,NA,NA,NA,no
+3/1/2022 9:20,87,yes; surface water,hindcast,yes,yes,NA,NA,yes
+3/1/2022 9:23,88,yes; surface water,forecast,yes,yes,process-based but not ecosystem simulation (e.g. age-structured population model),good example for probabilistic presentation of spatial forecasts being uncommon; do scenario-based analysis but don't propagate uncertainty,no
+3/1/2022 9:25,89,yes; surface water,forecast,yes,no,NA,NA,yes
+3/1/2022 9:28,90,yes; surface water,forecast,no,no,process-based but not ecosystem simulation (e.g. age-structured population model),NA,yes
+3/1/2022 9:30,91,yes; surface water,hindcast,can't tell,yes,NA,NA,yes
+3/1/2022 9:34,92,yes; surface water,forecast,yes,yes,NA,NA,yes
+3/1/2022 9:35,93,yes; surface water,none of the above,NA,NA,NA,NA,yes
+3/1/2022 9:37,94,yes; surface water,hindcast,yes,yes,NA,NA,yes
+3/1/2022 9:37,95,yes; surface water,none of the above,NA,NA,NA,NA,no
+3/1/2022 9:40,96,yes; surface water,forecast,no,no,empirical model but not a time series model (e.g. multiple regression),NA,no
+3/1/2022 9:46,97,yes; surface water,hindcast,yes,yes,NA,NA,yes
+3/1/2022 9:48,98,yes; surface water,none of the above,NA,NA,NA,NA,yes
+3/1/2022 9:49,99,yes; surface water,hindcast,yes,yes,NA,NA,yes
+3/1/2022 9:50,100,yes; surface water,hindcast,yes,yes,NA,NA,yes
+6/6/2022 13:03,211,yes; surface water,hindcast,no,yes,"machine learning, either process-guided or not process-guided (e.g. ANN)",NA,no
+3/1/2022 8:35,219,yes; surface water,hindcast,yes,yes,numerical ecosystem simulation (e.g. GLM-AED),NA,yes
+3/1/2022 8:43,220,yes; surface water,none of the above,no,NA,NA,NA,no
+3/1/2022 8:40,221,yes; surface water,forecast,no,no,empirical model but not a time series model (e.g. multiple regression),NA,yes
+3/1/2022 10:33,222,yes; surface water,hindcast,no,yes,"machine learning, either process-guided or not process-guided (e.g. ANN)",NA,no
+3/1/2022 10:35,224,yes; surface water,hindcast,no,yes,"machine learning, either process-guided or not process-guided (e.g. ANN)",NA,yes
+3/1/2022 10:38,225,yes; surface water,hindcast,no,yes,"machine learning, either process-guided or not process-guided (e.g. ANN)",NA,yes
+6/6/2022 18:02,237,yes; surface water,forecast,no,yes,"time series model (e.g. ARIMA); machine learning, either process-guided or not process-guided (e.g. ANN)",NA,yes
+6/7/2022 10:30,304,yes; surface water,forecast,no,yes,empirical model but not a time series model (e.g. multiple regression),NA,no
+3/1/2022 7:47,384,yes; surface water,forecast,no,no,process-based but not ecosystem simulation (e.g. age-structured population model),This a proposed forecast system.,yes
+3/1/2022 7:53,385,yes; surface water,hindcast,no,yes,"machine learning, either process-guided or not process-guided (e.g. ANN)",NA,yes
+3/1/2022 7:56,386,yes; surface water,none of the above,NA,no,time series model (e.g. ARIMA),NA,yes
+3/1/2022 8:19,390,yes; surface water,hindcast,no,yes,process-based but not ecosystem simulation (e.g. age-structured population model),NA,yes
+3/1/2022 8:26,393,yes; surface water,hindcast,yes,yes,other,Used a model for reservoir demand,yes
+3/1/2022 9:32,394,yes; surface water,hindcast,no,yes,"machine learning, either process-guided or not process-guided (e.g. ANN)",NA,yes
+3/1/2022 9:35,395,yes; groundwater,none of the above,NA,no,"machine learning, either process-guided or not process-guided (e.g. ANN)",NA,no
+3/1/2022 9:36,397,yes; surface water,NA,NA,NA,NA,Systematic review paper? For reference maybe,no
+3/1/2022 9:38,398,yes; surface water,NA,NA,NA,NA,Overview of river flood forecasting in Canada - interactions between forecasting centers,yes
+3/1/2022 9:41,399,yes; surface water,none of the above,NA,no,"machine learning, either process-guided or not process-guided (e.g. ANN)",NA,yes
+3/1/2022 9:43,400,yes; surface water,forecast,no,no,process-based but not ecosystem simulation (e.g. age-structured population model),NA,yes
+3/1/2022 9:46,401,yes; surface water,forecast,no,yes,process-based but not ecosystem simulation (e.g. age-structured population model),NA,yes
+3/1/2022 9:47,402,yes; surface water,hindcast,no,yes,"machine learning, either process-guided or not process-guided (e.g. ANN)",NA,yes
+3/1/2022 9:50,403,yes; surface water,hindcast,yes,yes,process-based but not ecosystem simulation (e.g. age-structured population model),NA,yes
+3/1/2022 9:54,404,yes; surface water,hindcast,no,yes,process-based but not ecosystem simulation (e.g. age-structured population model),NA,yes
+3/1/2022 9:57,405,yes; surface water,hindcast,no,yes,empirical model but not a time series model (e.g. multiple regression),NA,no
+6/7/2022 6:55,518,yes; surface water,forecast,no,NA,process-based but not ecosystem simulation (e.g. age-structured population model),NA,yes
+2/21/2022 11:08,549,yes; surface water,hindcast,no,yes,process-based but not ecosystem simulation (e.g. age-structured population model),NA,yes
+2/24/2022 12:53,550,yes; surface water,forecast,no,yes,"machine learning, either process-guided or not process-guided (e.g. ANN)",NA,yes
+2/24/2022 12:57,551,yes; surface water,forecast,yes,yes,NA,NA,yes
+2/24/2022 16:45,553,yes; surface water,hindcast,no,yes,"machine learning, either process-guided or not process-guided (e.g. ANN)",NA,yes
+2/24/2022 16:50,554,yes; surface water,hindcast,can't tell,yes,NA,NA,yes
+2/24/2022 16:53,555,yes; surface water,hindcast,no,yes,"process-based but not ecosystem simulation (e.g. age-structured population model); machine learning, either process-guided or not process-guided (e.g. ANN)",NA,yes
+2/24/2022 16:55,556,yes; surface water,hindcast,no,yes,"machine learning, either process-guided or not process-guided (e.g. ANN)",NA,yes
+2/24/2022 16:57,557,yes; surface water,hindcast,no,yes,"machine learning, either process-guided or not process-guided (e.g. ANN)",NA,yes
+2/24/2022 17:02,558,yes; surface water,hindcast,no,yes,"machine learning, either process-guided or not process-guided (e.g. ANN)",NA,yes
+3/1/2022 10:21,559,yes; surface water,hindcast,no,yes,numerical ecosystem simulation (e.g. GLM-AED),NA,yes
+3/1/2022 10:38,562,yes; surface water,none of the above,no,NA,empirical model but not a time series model (e.g. multiple regression),NA,no
