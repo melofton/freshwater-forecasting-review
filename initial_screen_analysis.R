@@ -164,6 +164,25 @@ ggplot(fresh, aes(x = fc)) +
 forecast <- fresh %>%
   filter(fc == "forecast")
 
+model <- forecast %>%
+  mutate(sim = ifelse(grepl("numerical",model_approach),1,0),
+         proc = ifelse(grepl("process-based",model_approach),1,0),
+         ts = ifelse(grepl("ARIMA",model_approach),1,0),
+         emp = ifelse(grepl("empirical",model_approach),1,0),
+         ml = ifelse(grepl("machine",model_approach),1,0),
+         other = ifelse(grepl("other",model_approach),1,0))
+model <- model %>%
+  select(sim:other) %>%
+  gather(sim:other, key = "model_type", value = "value") %>%
+  filter(value == 1)
+num_app <- model %>%
+  mutate(num_approaches = sim+proc+ts+emp+ml+other)
+ggplot(model, aes(x = model_type))+
+  geom_bar()
+sim <- model %>%
+  filter(model_type == "sim")
+ml <- model %>%
+  filter(model_type == "ml")
 #grab wq papers to get target var
 wq <- forecast %>%
   filter(hydrological == "no") %>%
@@ -220,12 +239,38 @@ ggplot(nt_eco, aes(x = uncertainty))+
 
 lt_hydro <- lt %>%
   filter(hydrological == "yes")
+model <- lt_hydro %>%
+  mutate(sim = ifelse(grepl("numerical",model_approach),1,0),
+         proc = ifelse(grepl("process-based",model_approach),1,0),
+         ts = ifelse(grepl("ARIMA",model_approach),1,0),
+         emp = ifelse(grepl("empirical",model_approach),1,0),
+         ml = ifelse(grepl("machine",model_approach),1,0),
+         other = ifelse(grepl("other",model_approach),1,0))
+model <- model %>%
+  select(sim:other) %>%
+  gather(sim:other, key = "model_type", value = "value") %>%
+  filter(value == 1)
+sim <- model %>%
+  filter(model_type == "sim")
 
 ggplot(lt_hydro, aes(x = uncertainty))+
   geom_bar()
 
 lt_eco <- lt %>%
   filter(hydrological == "no")
+model <- lt_eco %>%
+  mutate(sim = ifelse(grepl("numerical",model_approach),1,0),
+         proc = ifelse(grepl("process-based",model_approach),1,0),
+         ts = ifelse(grepl("ARIMA",model_approach),1,0),
+         emp = ifelse(grepl("empirical",model_approach),1,0),
+         ml = ifelse(grepl("machine",model_approach),1,0),
+         other = ifelse(grepl("other",model_approach),1,0))
+model <- model %>%
+  select(sim:other) %>%
+  gather(sim:other, key = "model_type", value = "value") %>%
+  filter(value == 1)
+emp <- model %>%
+  filter(model_type == "emp")
 
 ggplot(lt_eco, aes(x = uncertainty))+
   geom_bar()

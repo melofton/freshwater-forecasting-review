@@ -1,5 +1,5 @@
 date,result_num,freshwater,forecast,uncertainty,nearterm,model_approach,notes,hydrological,fc
-2/24/2022 9:33,1,yes; surface water,forecast,yes,no,process,NA,no,forecast
+2/24/2022 9:33,1,yes; surface water,forecast,yes,no,process-baseed,NA,no,forecast
 2/24/2022 9:35,2,yes; surface water,forecast,yes,yes,"numerical, machine",NA,no,forecast
 2/24/2022 9:43,6,yes; groundwater,forecast,yes,no,empirical,NA,no,forecast
 2/24/2022 9:44,7,yes; surface water,forecast,yes,no,numerical,NA,yes,forecast
@@ -39,7 +39,7 @@ date,result_num,freshwater,forecast,uncertainty,nearterm,model_approach,notes,hy
 3/1/2022 9:46,97,yes; surface water,hindcast,yes,yes,numerical,NA,yes,forecast
 3/1/2022 9:49,99,yes; surface water,hindcast,yes,yes,empirical,NA,yes,forecast
 3/1/2022 9:50,100,yes; surface water,hindcast,yes,yes,numerical,NA,yes,forecast
-3/1/2022 12:45,101,yes; surface water,hindcast,yes,yes,process,NA,yes,forecast
+3/1/2022 12:45,101,yes; surface water,hindcast,yes,yes,process-baseed,NA,yes,forecast
 3/1/2022 12:59,106,yes; surface water,forecast,yes,yes,numerical,NA,yes,forecast
 3/1/2022 13:01,107,yes; surface water,forecast,yes,yes,ARIMA,NA,yes,forecast
 3/1/2022 13:12,111,yes; surface water,hindcast,yes,yes,numerical,NA,yes,forecast
@@ -49,7 +49,7 @@ date,result_num,freshwater,forecast,uncertainty,nearterm,model_approach,notes,hy
 6/6/2022 6:46,124,yes; surface water,forecast,yes,yes,machine,NA,no,forecast
 6/6/2022 6:48,126,yes; surface water,forecast,yes,yes,numerical,NA,yes,forecast
 6/6/2022 6:49,127,yes; surface water,forecast,yes,no,empirical,NA,no,forecast
-6/6/2022 6:51,128,yes; surface water,forecast,yes,yes,process,NA,yes,forecast
+6/6/2022 6:51,128,yes; surface water,forecast,yes,yes,process-baseed,NA,yes,forecast
 6/6/2022 6:52,129,yes; surface water,hindcast,yes,yes,machine,NA,yes,forecast
 6/6/2022 7:02,133,yes; surface water,hindcast,yes,yes,numerical,NA,no,forecast
 6/6/2022 7:10,136,yes; surface water,forecast,yes,no,numerical,NA,yes,forecast
@@ -60,13 +60,13 @@ date,result_num,freshwater,forecast,uncertainty,nearterm,model_approach,notes,hy
 6/6/2022 7:47,156,yes; surface water,hindcast,yes,yes,"numerical, empirical",focus on decision support,yes,forecast
 6/6/2022 7:53,159,yes; surface water,hindcast,yes,yes,machine,NA,yes,forecast
 6/6/2022 8:04,165,yes; surface water,forecast,yes,no,empirical,NA,no,forecast
-6/6/2022 8:05,166,yes; surface water,hindcast,yes,yes,"process, empirical",review of Great Lakes forecasting system --> check this out!,yes,forecast
+6/6/2022 8:05,166,yes; surface water,hindcast,yes,yes,"process-baseed, empirical",review of Great Lakes forecasting system --> check this out!,yes,forecast
 6/6/2022 8:14,172,yes; surface water,hindcast,yes,yes,numerical,evaluation of mid-Atlantic ensemble streamflow forecasts --> check b/c relevant to our region,yes,forecast
-6/6/2022 8:14,173,yes; surface water,hindcast,yes,yes,"ARIMA, process, empirical",NA,yes,forecast
+6/6/2022 8:14,173,yes; surface water,hindcast,yes,yes,"ARIMA, process-baseed, empirical",NA,yes,forecast
 6/6/2022 8:18,175,yes; surface water,hindcast,yes,yes,ARIMA,NA,yes,forecast
 6/6/2022 8:20,177,yes; surface water,forecast,yes,yes,empirical,NA,yes,forecast
 6/6/2022 8:34,183,yes; groundwater,hindcast,yes,yes,numerical,NA,yes,forecast
-6/6/2022 12:05,185,yes; surface water,forecast,yes,yes,"process, empirical",NA,yes,forecast
+6/6/2022 12:05,185,yes; surface water,forecast,yes,yes,"process-baseed, empirical",NA,yes,forecast
 6/6/2022 12:12,188,yes; surface water,hindcast,yes,yes,numerical,NA,yes,forecast
 6/6/2022 12:22,191,yes; surface water,hindcast,yes,yes,empirical,NA,no,forecast
 6/6/2022 12:29,195,yes; surface water,forecast,yes,yes,"empirical, machine",NA,yes,forecast
@@ -89,23 +89,23 @@ date,result_num,freshwater,forecast,uncertainty,nearterm,model_approach,notes,hy
 6/7/2022 8:47,257,yes; surface water,forecast,yes,yes,"numerical, machine",NA,yes,forecast
 6/7/2022 8:51,259,yes; surface water,forecast,yes,yes,machine,NA,yes,forecast
 6/7/2022 8:57,262,yes; surface water,forecast,yes,yes,numerical,NA,yes,forecast
-6/7/2022 9:05,267,yes; surface water,hindcast,yes,yes,"empirical, process",NA,yes,forecast
-6/7/2022 9:39,277,yes; surface water,none of the above,,,process,NA,yes,not a forecast
+6/7/2022 9:05,267,yes; surface water,hindcast,yes,yes,"empirical, process-baseed",NA,yes,forecast
+6/7/2022 9:39,277,yes; surface water,none of the above,,,process-baseed,NA,yes,not a forecast
 6/7/2022 9:41,279,yes; surface water,hindcast,yes,yes,"numerical, ARIMA",NA,yes,forecast
-6/7/2022 9:44,283,yes; surface water,forecast,yes,yes,"process, numerical",NA,yes,forecast
+6/7/2022 9:44,283,yes; surface water,forecast,yes,yes,"process-baseed, numerical",NA,yes,forecast
 6/7/2022 9:47,285,yes; surface water,forecast,yes,yes,numerical,NA,yes,forecast
 6/7/2022 9:50,287,yes; surface water,forecast,yes,yes,"empirical, machine",NA,yes,forecast
 6/7/2022 9:52,289,yes; surface water,forecast,yes,yes,numerical,NA,yes,forecast
 6/7/2022 9:53,290,yes; surface water,forecast,yes,no,numerical,NA,yes,forecast
 6/7/2022 9:54,291,yes; surface water,forecast,yes,yes,machine,NA,yes,forecast
-6/7/2022 10:09,295,yes; surface water,forecast,yes,no,process,NA,no,forecast
+6/7/2022 10:09,295,yes; surface water,forecast,yes,no,process-baseed,NA,no,forecast
 6/7/2022 10:21,300,yes; surface water,forecast,yes,yes,"machine, empirical",focus is on how streamflow forecasts affect water allocation for agriculture (focus on end user),yes,forecast
-6/7/2022 10:25,302,yes; surface water,forecast,yes,yes,"process, numerical",NA,yes,forecast
+6/7/2022 10:25,302,yes; surface water,forecast,yes,yes,"process-baseed, numerical",NA,yes,forecast
 6/7/2022 10:32,306,yes; surface water,forecast,yes,yes,numerical,NA,yes,forecast
 6/7/2022 10:34,307,yes; surface water,hindcast,yes,yes,numerical,NA,yes,forecast
 6/7/2022 10:35,308,yes; surface water,forecast,yes,yes,numerical,NA,yes,forecast
 6/7/2022 10:46,313,yes; groundwater,forecast,yes,yes,numerical,NA,yes,forecast
-6/7/2022 10:49,316,yes; surface water,hindcast,yes,yes,process,NA,yes,forecast
+6/7/2022 10:49,316,yes; surface water,hindcast,yes,yes,process-baseed,NA,yes,forecast
 6/7/2022 10:53,319,yes; surface water,forecast,yes,no,numerical,NA,no,forecast
 6/7/2022 12:12,324,yes; surface water,forecast,yes,yes,ARIMA,NA,yes,forecast
 6/7/2022 12:15,326,yes; surface water,forecast,yes,yes,machine,NA,no,forecast
@@ -115,24 +115,24 @@ date,result_num,freshwater,forecast,uncertainty,nearterm,model_approach,notes,hy
 6/7/2022 12:38,339,yes; surface water,forecast,yes,yes,numerical,NA,yes,forecast
 6/7/2022 12:40,340,yes; surface water,hindcast,yes,yes,machine,NA,yes,forecast
 6/7/2022 12:44,343,yes; surface water,forecast,can't tell,yes,NA,paper not in English,yes,forecast
-6/7/2022 12:52,348,yes; surface water,forecast,yes,yes,process,NA,yes,forecast
+6/7/2022 12:52,348,yes; surface water,forecast,yes,yes,process-baseed,NA,yes,forecast
 6/7/2022 13:00,350,yes; surface water,forecast,yes,yes,numerical,NA,yes,forecast
 6/7/2022 13:07,353,yes; surface water,hindcast,yes,yes,ARIMA,NA,yes,forecast
 6/7/2022 13:10,356,yes; surface water,forecast,yes,yes,numerical,NA,yes,forecast
 6/7/2022 13:11,357,yes; surface water,forecast,yes,yes,"empirical, numerical",NA,yes,forecast
 6/7/2022 13:12,358,yes; surface water,forecast,yes,yes,empirical,NA,yes,forecast
-6/7/2022 13:13,360,yes; surface water,hindcast,yes,yes,process,NA,yes,forecast
+6/7/2022 13:13,360,yes; surface water,hindcast,yes,yes,process-baseed,NA,yes,forecast
 6/8/2022 8:28,374,yes; surface water,forecast,yes,yes,empirical,NA,no,forecast
 6/8/2022 8:38,379,yes; surface water,forecast,yes,no,empirical,NA,no,forecast
-6/8/2022 8:41,381,yes; surface water,forecast,yes,yes,process,NA,yes,forecast
+6/8/2022 8:41,381,yes; surface water,forecast,yes,yes,process-baseed,NA,yes,forecast
 6/7/2022 6:29,514,yes; surface water,forecast,yes,yes,numerical,NA,yes,forecast
 6/8/2022 9:05,514,yes; surface water,forecast,yes,yes,numerical,NA,yes,forecast
 6/7/2022 6:36,515,yes; surface water,forecast,yes,no,empirical,NA,no,forecast
 6/8/2022 9:07,515,yes; surface water,forecast,yes,no,empirical,NA,no,forecast
-6/7/2022 6:47,517,yes; surface water,forecast,yes,yes,process,NA,yes,forecast
+6/7/2022 6:47,517,yes; surface water,forecast,yes,yes,process-baseed,NA,yes,forecast
 6/7/2022 7:23,524,yes; surface water,forecast,yes,yes,machine,NA,yes,forecast
-6/7/2022 7:25,525,yes; surface water,forecast,yes,yes,process,NA,yes,forecast
-6/8/2022 11:06,525,yes; surface water,forecast,yes,yes,process,NA,yes,forecast
+6/7/2022 7:25,525,yes; surface water,forecast,yes,yes,process-baseed,NA,yes,forecast
+6/8/2022 11:06,525,yes; surface water,forecast,yes,yes,process-baseed,NA,yes,forecast
 6/7/2022 7:49,530,yes; surface water,forecast,yes,yes,numerical,NA,yes,forecast
 6/8/2022 11:17,530,yes; surface water,forecast,yes,yes,numerical,NA,yes,forecast
 6/8/2022 11:19,531,yes; surface water,forecast,yes,yes,machine,NA,yes,forecast
@@ -140,17 +140,17 @@ date,result_num,freshwater,forecast,uncertainty,nearterm,model_approach,notes,hy
 6/7/2022 8:39,544,yes; surface water,forecast,yes,yes,empirical,NA,yes,forecast
 6/8/2022 11:41,544,yes; surface water,forecast,yes,yes,empirical,NA,yes,forecast
 6/7/2022 8:46,548,yes; surface water,forecast,yes,yes,"ARIMA, machine",NA,yes,forecast
-6/8/2022 11:58,551,yes; surface water,forecast,yes,yes,process,NA,yes,forecast
-2/24/2022 12:57,551,yes; surface water,forecast,yes,yes,process,NA,yes,forecast
+6/8/2022 11:58,551,yes; surface water,forecast,yes,yes,process-baseed,NA,yes,forecast
+2/24/2022 12:57,551,yes; surface water,forecast,yes,yes,process-baseed,NA,yes,forecast
 2/24/2022 16:50,554,yes; surface water,hindcast,can't tell,yes,NA,currently requested from ILL,yes,forecast
 3/1/2022 11:01,566,yes; surface water,forecast,yes,yes,machine,UC as model selection uncertainty- see Fig 10,yes,forecast
 6/8/2022 12:30,567,yes; surface water,forecast,yes,yes,machine,NA,yes,forecast
-3/1/2022 11:31,572,yes; surface water,forecast,yes,yes,process,NA,yes,forecast
+3/1/2022 11:31,572,yes; surface water,forecast,yes,yes,process-baseed,NA,yes,forecast
 6/8/2022 13:46,587,yes; surface water,forecast,yes,yes,empirical,NA,yes,forecast
-6/8/2022 13:47,588,yes; surface water,hindcast,yes,yes,process,NA,yes,forecast
+6/8/2022 13:47,588,yes; surface water,hindcast,yes,yes,process-baseed,NA,yes,forecast
 6/8/2022 13:49,589,yes; surface water,forecast,yes,yes,machine,NA,yes,forecast
 6/8/2022 13:54,591,yes; surface water,forecast,can't tell,yes,empirical,paper not in English,yes,forecast
-6/8/2022 13:57,593,yes; surface water,forecast,yes,yes,process,NA,yes,forecast
+6/8/2022 13:57,593,yes; surface water,forecast,yes,yes,process-baseed,NA,yes,forecast
 6/9/2022 7:54,602,yes; surface water,hindcast,yes,yes,"empirical, machine",NA,yes,forecast
 6/9/2022 8:00,606,yes; surface water,forecast,yes,yes,empirical,NA,yes,forecast
 6/9/2022 8:01,608,yes; surface water,forecast,yes,yes,numerical,NA,yes,forecast
@@ -159,7 +159,7 @@ date,result_num,freshwater,forecast,uncertainty,nearterm,model_approach,notes,hy
 6/9/2022 8:15,615,yes; surface water,hindcast,yes,yes,numerical,NA,yes,forecast
 6/9/2022 8:17,617,yes; surface water,forecast,yes,yes,"empirical, machine",NA,yes,forecast
 6/9/2022 8:19,618,yes; surface water,forecast,yes,yes,machine,NA,yes,forecast
-6/9/2022 8:20,619,yes; surface water,forecast,yes,yes,"empirical, process",NA,yes,forecast
+6/9/2022 8:20,619,yes; surface water,forecast,yes,yes,"empirical, process-baseed",NA,yes,forecast
 6/9/2022 8:27,627,yes; surface water,forecast,yes,yes,numerical,NA,yes,forecast
 6/9/2022 8:37,633,yes; surface water,forecast,yes,yes,machine,NA,yes,forecast
 6/9/2022 8:38,634,yes; surface water,hindcast,yes,yes,empirical,NA,yes,forecast
@@ -174,13 +174,13 @@ date,result_num,freshwater,forecast,uncertainty,nearterm,model_approach,notes,hy
 6/9/2022 11:47,653,yes; surface water,hindcast,yes,yes,numerical,NA,yes,forecast
 6/9/2022 12:06,668,yes; surface water,forecast,yes,yes,machine,NA,no,forecast
 6/9/2022 12:10,671,yes; surface water,forecast,yes,yes,empirical,NA,yes,forecast
-6/9/2022 12:12,673,yes; surface water,forecast,yes,yes,process,NA,yes,forecast
+6/9/2022 12:12,673,yes; surface water,forecast,yes,yes,process-baseed,NA,yes,forecast
 6/9/2022 12:15,677,yes; surface water,forecast,yes,yes,machine,NA,yes,forecast
 6/17/2022 8:37,679,yes; surface water,forecast,yes,yes,numerical,NA,yes,forecast
 6/9/2022 12:33,684,yes; surface water,forecast,yes,yes,numerical,NA,yes,forecast
-6/9/2022 12:35,685,yes; surface water,forecast,yes,yes,process,NA,yes,forecast
+6/9/2022 12:35,685,yes; surface water,forecast,yes,yes,process-baseed,NA,yes,forecast
 6/9/2022 12:36,686,yes; surface water,forecast,yes,yes,machine,NA,yes,forecast
 6/9/2022 12:46,695,yes; surface water,forecast,yes,yes,machine,NA,yes,forecast
 6/9/2022 12:50,700,yes; surface water,forecast,yes,yes,"empirical, machine",NA,yes,forecast
-6/9/2022 12:53,705,yes; surface water,forecast,yes,yes,"empirical, process",NA,yes,forecast
+6/9/2022 12:53,705,yes; surface water,forecast,yes,yes,"empirical, process-baseed",NA,yes,forecast
 6/9/2022 12:58,710,yes; surface water,forecast,yes,yes,numerical,NA,yes,forecast
