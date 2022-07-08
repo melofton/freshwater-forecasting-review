@@ -165,18 +165,24 @@ forecast <- fresh %>%
   filter(fc == "forecast")
 
 model <- forecast %>%
-  mutate(sim = ifelse(grepl("numerical",model_approach),1,0),
-         proc = ifelse(grepl("process-based",model_approach),1,0),
-         ts = ifelse(grepl("ARIMA",model_approach),1,0),
-         emp = ifelse(grepl("empirical",model_approach),1,0),
-         ml = ifelse(grepl("machine",model_approach),1,0),
-         other = ifelse(grepl("other",model_approach),1,0))
+  mutate(sim = ifelse(grepl("numerical",model_approach),"sim",NA),
+         proc = ifelse(grepl("process-based",model_approach),"proc",NA),
+         ts = ifelse(grepl("ARIMA",model_approach),"ts",NA),
+         emp = ifelse(grepl("empirical",model_approach),"emp",NA),
+         ml = ifelse(grepl("machine",model_approach),"ml",NA),
+         other = ifelse(grepl("other",model_approach),"other",NA))
 model <- model %>%
   select(sim:other) %>%
   gather(sim:other, key = "model_type", value = "value") %>%
   filter(value == 1)
 num_app <- model %>%
-  mutate(num_approaches = sim+proc+ts+emp+ml+other)
+  mutate(num_approaches = paste(sim,proc,ts,emp,ml,other,sep = "_")) %>%
+  filter(grepl("emp_ml",num_approaches))
+  ggplot(aes(x = num_approaches))+
+  geom_bar()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+num_app
+
 ggplot(model, aes(x = model_type))+
   geom_bar()
 sim <- model %>%
