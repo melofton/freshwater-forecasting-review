@@ -142,7 +142,7 @@ for(i in 1:length(matrix_fail_result_num)){
 
 ## QUESTIONS TO ANSWER FROM INITIAL SCREEN ####
 final <- dat3
-write.csv(final, "./cleaned_initial_screen.csv",row.names = FALSE)
+#write.csv(final, "./cleaned_initial_screen.csv",row.names = FALSE)
 
 #How many papers were not actually focusing on inland waters?
 ggplot(final, aes(x = freshwater)) +
@@ -163,6 +163,27 @@ ggplot(fresh, aes(x = fc)) +
 #How many freshwater forecast papers were focused solely on hydrology?
 forecast <- fresh %>%
   filter(fc == "forecast")
+
+#grab wq papers to get target var
+wq <- forecast %>%
+  filter(hydrological == "no") %>%
+  rename(`Result Number` = result_num)
+wq1 <- left_join(wq,corrected_screen, by = "Result Number")
+write.csv(wq1, "wq_for_target_var.csv",row.names = FALSE)
+
+wq_targets <- read_csv("./wq_for_target_var.csv")
+targets <- strsplit(wq_targets$`Target Variables`, split = ",")
+target_vector <- data.frame(targets = unlist(targets))
+
+targets <- ggplot(target_vector, aes(x = targets))+
+  geom_bar()+
+  theme_classic()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  xlab("Water Quality Target Variable")+
+  ylab("# of papers")
+ggsave(targets, filename = "./wq_target_vars.tif",height = 4, width = 8,
+       units = "in", dpi = 300, dev = "tiff")
+
 ggplot(forecast, aes(x = hydrological))+
   geom_bar()
 
