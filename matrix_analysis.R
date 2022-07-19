@@ -101,6 +101,26 @@ a <- ggplot(data = dat7, aes(x = skill_metric, y = metric_frequency, fill = phys
 
 a
 
+a_dwh <- ggplot(data = dat7, aes(x = phys_chem_bio, y = skill_metric, size = metric_frequency ))+
+  geom_point()+
+  # geom_bar(stat = "identity", position = "stack")+
+  theme_classic()+
+  # scale_fill_discrete(name = "Forecast Variable Type")+
+  labs(size = "Metric Frequency", 
+       y = "Skill metric")+
+  # xlab("Forecast Variable Type")+
+  # theme(axis.text.x = element_text(angle = 45,hjust = 1))+
+  scale_x_discrete(name = 'Forecast Variable Type', 
+                   breaks = c('physical', 'chemical', 'biological', 'multiple'), 
+                   labels = c('physical\n(n=5)', 'chemical\n(n=3)', 'biolgoical\n(n=4)', 'multiple\n(n=4)'))
+# theme(legend.position = "none")+
+# scale_fill_brewer(palette = "BrBG",direction = -1)
+
+a_dwh
+
+ggsave(a_dwh, filename = "./Fig3_a_DWH.tif",height = 7.5, width = 5,
+       units = "in", dpi = 300, dev = "tiff")
+
 #panel a1
 metric_list <- data.frame(result_num = rep(NA,16),
                           num_metrics = rep(NA,16),
