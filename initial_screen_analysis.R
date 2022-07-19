@@ -198,14 +198,22 @@ write.csv(wq1, "wq_for_target_var.csv",row.names = FALSE)
 
 wq_targets <- read_csv("./wq_for_target_var.csv")
 targets <- strsplit(wq_targets$`Target Variables`, split = ",")
-target_vector <- data.frame(targets = unlist(targets))
+target_vector <- data.frame(targets = unlist(targets)) %>%
+  mutate(phys_chem_bio = ifelse(targets %in% c("ice","temperature","sediment/turbidity"),"physical",
+                                ifelse(targets %in% c("BOD/COD","conductivity/salinity","DO","gas emissions","hazardous chemical","metals","nutrients","pH","toxins/T&O compounds"),"chemical",
+                                       ifelse(targets == "index","multiple","biological"))))
 
-targets <- ggplot(target_vector, aes(x = targets))+
+targets <- ggplot(target_vector, aes(x = targets, fill = phys_chem_bio))+
   geom_bar()+
   theme_classic()+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))+
   xlab("Water Quality Target Variable")+
-  ylab("# of papers")
+  ylab("# of papers")+
+  theme(legend.position = "top")+
+  scale_fill_brewer(palette = "BrBG",direction = -1,name = "Forecast Variable Type")
+
+  
+targets
 ggsave(targets, filename = "./wq_target_vars.tif",height = 4, width = 8,
        units = "in", dpi = 300, dev = "tiff")
 

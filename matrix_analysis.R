@@ -9,14 +9,14 @@ rm(list = ls())
 pacman::p_load(tidyverse, lubridate, cowplot,ggbeeswarm)
 
 #read in data 
-dat <- read_csv("./GCB-review matrix_06JUL22.csv")
+dat <- read_csv("./GCB-review matrix_19JUL22.csv")
 dat1 <- t(dat[c(1:29),]) 
 titles <- row.names(dat1)
 rownames(dat1) <- NULL
 dat2 <- data.frame(dat1)
 names(dat2) <- dat2[1,]
 dat2 <- dat2[-1,]
-dat2$Title <- titles[2:26]
+dat2$Title <- titles[2:22]
 colnames(dat2) <- c("Authors","Journal","Year","DOI","result_num","Reviewer",
                    "t1","ecosystem","other_ecosystem","phys_chem_bio","forecast_vars",
                    "min_horizon_days","max_horizon_days","skill_metrics","null_model",
@@ -92,6 +92,7 @@ a <- ggplot(data = dat7, aes(x = skill_metric, y = metric_frequency, fill = phys
   geom_bar(stat = "identity", position = "stack")+
   theme_classic()+
   scale_fill_discrete(name = "Forecast Variable Type")+
+  scale_x_discrete(labels=c("R2" = expression(R^2)))+
   xlab("Skill metric")+
   ylab("# of papers")+
   theme(axis.text.x = element_text(angle = 45,hjust = 1))+
@@ -167,7 +168,7 @@ c <- ggplot(data = dat9, aes(x = method, y = frequency, fill = phys_chem_bio))+
   ylab("# of papers")+
   theme(legend.position = "bottom")+
   guides(fill = guide_legend(title.position="top"))+
-  scale_fill_brewer(palette = "BrBG",direction = -1,name = "Forecast Variable")
+  scale_fill_brewer(palette = "BrBG",direction = -1,name = "Forecast Variable Type")
 c
 
 Fig3<-plot_grid(a,b,c, align='v', vjust=1, scale = 1,
