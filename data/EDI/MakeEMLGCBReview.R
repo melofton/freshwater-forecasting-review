@@ -1,6 +1,6 @@
-##MakeEMLFluoroProbe
+##MakeEMLGCBReview
 ##Author: Mary Lofton
-##Date: 13JAN22
+##Date: 31AUG22
 
 #good sites for step-by-step instructions
 #https://ediorg.github.io/EMLassemblyline/articles/overview.html

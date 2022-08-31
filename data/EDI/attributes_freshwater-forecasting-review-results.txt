@@ -1,0 +1,95 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Publication Type		categorical				
+Authors		character				
+Book Authors		character				
+Book Editors		character				
+Book Group Authors		categorical				
+Author Full Names		character				
+Book Author Full Names		character				
+Group Authors		character				
+Article Title		character				
+Source Title		character				
+Book Series Title		character				
+Book Series Subtitle		character				
+Language		categorical				
+Document Type		categorical				
+Conference Title		character				
+Conference Date		Date		!Add datetime specifier here!		
+Conference Location		character				
+Conference Sponsor		character				
+Conference Host		character				
+Author Keywords		character				
+Keywords Plus		character				
+Abstract		character				
+Addresses		character				
+Affiliations		character				
+Reprint Addresses		character				
+Email Addresses		character				
+Researcher Ids		character				
+ORCIDs		character				
+Funding Orgs		character				
+Funding Text		character				
+Cited References		character				
+Cited Reference Count		numeric	!Add units here!			
+Times Cited, WoS Core		Date		!Add datetime specifier here!		
+Times Cited, All Databases		Date		!Add datetime specifier here!		
+180 Day Usage Count		Date		!Add datetime specifier here!		
+Since 2013 Usage Count		numeric	!Add units here!			
+Publisher		categorical				
+Publisher City		categorical				
+Publisher Address		categorical				
+ISSN		character				
+eISSN		character				
+ISBN		character				
+Journal Abbreviation		character				
+Journal ISO Abbreviation		character				
+Publication Date		Date		!Add datetime specifier here!		
+Publication Year		Date		!Add datetime specifier here!		
+Volume		character				
+Issue		categorical				
+Part Number		character				
+Supplement		numeric	!Add units here!			
+Special Issue		categorical				
+Meeting Abstract		character				
+Start Page		character				
+End Page		character				
+Article Number		character				
+DOI		character				
+Book DOI		character				
+Early Access Date		Date		!Add datetime specifier here!		
+Number of Pages		numeric	!Add units here!			
+WoS Categories		character				
+Web of Science Index		categorical				
+Research Areas		character				
+IDS Number		character				
+UT (Unique WOS ID)		character				
+Pubmed Id		numeric	!Add units here!			
+Open Access Designations		categorical				
+Highly Cited Status		categorical				
+Hot Paper Status		categorical				
+Date of Export		Date		!Add datetime specifier here!		
+result_num		numeric	!Add units here!			
+title_screen		categorical				
+freshwater		categorical				
+forecast		categorical				
+uncertainty_present		categorical				
+nearterm		categorical				
+model_approach		categorical				
+hydrological		categorical				
+ecosystem		character				
+other_ecosystem		character				
+phys_chem_bio		character				
+forecast_vars		character				
+min_horizon_days		Date		!Add datetime specifier here!		
+max_horizon_days		Date		!Add datetime specifier here!		
+skill_metrics		character				
+null_model		categorical				
+model_comparison		categorical				
+simple_null_model		categorical				
+uncertainty_method		categorical				
+iterative		categorical				
+automated		categorical				
+archived		categorical				
+motivation		character				
+end_user		character				
+engagement		character				
