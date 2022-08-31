@@ -1,1 +1,18 @@
 keyword	keywordThesaurus
+data assimilation
+decision support
+ecological forecasting
+forecast
+forecast automation
+forecast end user
+forecast model
+forecast skill
+freshwater
+hindcast
+hydrological forecasting
+near-term iterative forecasting cycle
+null model
+uncertainty propagation
+uncertainty partitioning
+water quantity
+water quality

@@ -1,1 +1,9 @@
-﻿
+﻿This data publication includes code and results from a systematic literature review on the current state of near-term forecasting of freshwater quality. The review aimed to address the following questions: 
+
+(1) Freshwater variables, scales, models, and skill: Which freshwater variables and temporal scales are most commonly targeted for near-term forecasts, and what modeling methods are most commonly employed to develop these forecasts? How is the accuracy of freshwater quality forecasts assessed, and how accurate are they? How is uncertainty typically incorporated into water quality forecast output?
+
+(2) Forecast infrastructure and workflows: Are iterative, automated workflows commonly employed in near-term freshwater quality forecasting? How are forecasts validated and archived?
+
+(3) Human dimensions: What is the stated motivation for development of most near-term freshwater quality forecasts, and who are the most common end users (if any)? How are end users engaged in forecast development?
+
+An initial search was conducted for published papers presenting freshwater quality forecasts from 1 January 2017 to 17 February 2022 in the Web of Science Core Collection. Results were subsequently analyzed in three stages. First, paper titles were screened for relevance. Second, an initial screen was conducted to assess whether each paper presented a near-term freshwater quality forecast. Third, papers that passed the initial screen were analyzed using a standardized matrix to assess the state of near-term freshwater quality forecasting and identify areas of recent progress and ongoing challenges. Additional details regarding the systematic literature search and review are presented in the Methods section of the metadata.

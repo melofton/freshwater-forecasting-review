@@ -41,57 +41,37 @@ library(EMLassemblyline)
 ?template_table_attributes
 ?template_categorical_variables #don't run this till later
 
-# Import templates for our dataset licensed under CCBY, with 3 tables.
-template_core_metadata(path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/EDI",
+# Import templates for our dataset licensed under CCBY, with 1 table.
+template_core_metadata(path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/data/EDI",
                        license = "CCBY",
                        file.type = ".txt",
                        write.file = TRUE)
 
-#would just include a subset of variables here
-template_table_attributes(path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/EDI",
-                          data.path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/EDI",
-                          data.table = "final_search_results.csv",
+template_table_attributes(path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/data/EDI",
+                          data.path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/data/EDI",
+                          data.table = "freshwater-forecasting-review-results.csv",
                           write.file = TRUE)
-
-template_table_attributes(path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/EDI",
-                          data.path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/EDI",
-                          data.table = "initial_screen_results.csv",
-                          write.file = TRUE)
-
-template_table_attributes(path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/EDI",
-                          data.path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/EDI",
-                          data.table = "initial_screen_results.csv",
-                          write.file = TRUE)
-
-
-#we want empty to be true for this because we don't include lat/long
-#as columns within our dataset but would like to provide them
-template_geographic_coverage(path = "C:/Users/Mary Lofton/Documents/Github/Reservoirs/Data/DataAlreadyUploadedToEDI/EDIProductionFiles/MakeEMLFluoroProbe/2019",
-                             data.path = "C:/Users/Mary Lofton/Documents/Github/Reservoirs/Data/DataAlreadyUploadedToEDI/EDIProductionFiles/MakeEMLFluoroProbe/2019",
-                             data.table = "FluoroProbe.csv",
-                             empty = TRUE,
-                             write.file = TRUE)
 
 #Step 6: Script your workflow
 #that's what this is, silly!
 
-#Step 7: Abstract
+#Step 7: Abstract - check
 #copy-paste the abstract from your Microsoft Word document into abstract.txt
 #if you want to check your abstract for non-allowed characters, go to:
 #https://pteo.paranoiaworks.mobi/diacriticsremover/
 #paste text and click remove diacritics
 
-#Step 8: Methods
+#Step 8: Methods - check
 #copy-paste the methods from your Microsoft Word document into methods.txt
 #if you want to check your abstract for non-allowed characters, go to:
 #https://pteo.paranoiaworks.mobi/diacriticsremover/
 #paste text and click remove diacritics
 
-#Step 9: Additional information
+#Step 9: Additional information - check
 #nothing mandatory for Carey Lab in this section but I use it for the notes
 #about whole-ecosystem manipulations in FCR
 
-#Step 10: Keywords
+#Step 10: Keywords - check
 #DO NOT EDIT KEYWORDS FILE USING A TEXT EDITOR!! USE EXCEL!!
 #see the LabKeywords.txt file for keywords that are mandatory for all Carey Lab data products
 

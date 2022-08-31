@@ -1,1 +1,71 @@
-﻿
+We conducted a state-of-the-art literature review (sensu Grant and Booth 2009) of freshwater forecasting over the past five years to assess the state of the field, recent progress, and ongoing challenges. First, we conducted a search using the Web of Science Core Collection database. Next we conducted a title screen, followed by an initial full-text screen, during which we assessed whether the paper presented a near-term freshwater quality forecast. We then completed in-depth analysis of each paper that passed the initial screen using a standardized matrix. Finally, we analyzed the tabular data from our matrix-based paper analysis to assess the state of near-term freshwater quality forecasting and identify areas of recent progress and ongoing challenges. Each step of the literature review process is documented in detail below. 
+
+We built our search around four concepts: forecasting, freshwater, possible freshwater forecast target variables (e.g., streamflow, harmful algal blooms), and a combined global change/resource management concept. The final search string required the title to contain a word relating to the forecasting concept and for either the title or the abstract to contain a word or phrase relating to each of the four concepts. After several trial searches, we subsequently removed "predict*" and "project*" from the forecasting concept for the abstract search only, as we found this resulted in retrieval of a large proportion of modeling studies that did not address forecasting. Our search period extended from 1 January 2017 to 17 February 2022, representing the past five years of peer-reviewed research, which is a typical approach for state-of-art reviews (Grant and Booth 2009). Together, these requirements resulted in the following final search string, with the final search conducted on 17 February 2022 yielding 963 results:
+
+Title must include:
+(forecast* OR hindcast* OR predict* OR project*)
+
+Title or abstract must include:
+(freshwater OR hydrology OR hydrodynamics OR aquatic OR stream* OR river OR lake OR reservoir OR groundwater) AND (forecast* OR hindcast*) AND (fish OR algae OR phytoplankton OR zooplankton OR plankton OR nitrate OR ammoni* OR nitrogen OR phosphate OR phosphorus OR "dissolved gas" OR "dissolved gasses" OR "dissolved gases" OR "carbon dioxide" OR methane OR nutrient* OR temperature OR communit* OR biodiversity OR flow OR streamflow OR "water quality" OR flood OR hydrology OR hydrodynamics OR "algal bloom" OR "dead zone" OR "dissolved oxygen" OR salmon OR "benthic macroinvertebrate" OR "benthic macroinvertebrates" OR toxin OR cyanobacteria* OR chem* OR biogeochem* OR flux*) AND (("global change" OR "climate change" OR climate OR "global warming" OR "global cooling" OR "carbon cycle" OR "carbon cycling" OR "greenhouse gas" OR "greenhouse gasses" OR "greenhouse gases" OR hypoxia OR brownification OR "invasive species" OR "land use" OR "nutrient pollution" OR microplastics OR biodiversity OR "emerging diseases" OR antibiotics OR salinization OR eutrophication OR anthrop*) OR ("resource manager" OR "resource management" OR "freshwater resource" OR "freshwater resources" OR "ecosystem service" OR "ecosystem services" OR "water treatment" OR "drinking water" OR "water supply" OR "lake manager" OR "lake management" OR "river management" OR "river manager" OR "water manager" OR "water management" OR "end user" OR "end-user" OR "decision-making" OR "decision support" OR conservation OR "water policy" OR policymaker* OR "water professional" OR "water professionals" OR "water resource" OR "water resources" OR stakeholder* OR research*))
+
+Second, we screened paper titles and text for relevance and basic information regarding forecasts. The title screen was conducted by M.E.L. and resulted in elimination of 250 papers, leaving 713 papers for the initial full-text screen. Examples of papers eliminated during the title screen include papers forecasting vehicular traffic flow and papers forecasting atmospheric rivers, which are a meteorological phenomenon. The initial screen was also conducted by M.E.L., with 231 (~ one third) abstracts double-screened by D.W.H., C.C.C., and R.Q.T. to ensure agreement amongst co-authors regarding interpretation of the initial screen criteria. The initial screen was conducted using a standardized questionnaire comprising the following questions:
+
+1. Is the study ecosystem an inland waterbody (salty lakes, lagoons, swamps, wetlands are permissible, coastal oceans and estuaries are not permissible)? For studies forecasting runoff or drought/flood risk, there must be some representation of an inland waterbody in the modeling approach.
+
+2. Are the only focal variables some combination of streamflow, inflow, or stream or river discharge, water level or flood risk (i.e., water quantity)?
+
+3. Is the study presenting a forecast, nowcast, or hindcast (defined as a prediction of future conditions from the perspective of the model)?
+
+4. If the study is a forecast, nowcast, or hindcast, is uncertainty specified?
+
+5. If the study is a forecast, nowcast, or hindcast, what modeling approach is used (see Table 2 for list of modeling approaches)?
+
+6. If the study is a forecast, nowcast, or hindcast, is the forecast/hindcast/nowcast near-term, defined as having a minimum forecast horizon _ 10 yr?
+
+Following the initial screen, we conducted in-depth analysis of all identified near-term freshwater quality forecasting papers (n = 16) using a standardized matrix. Each paper was double-screened by M.E.L. and D.W.H., and any discrepancies regarding entries to the matrix were resolved through discussion. 
+
+Questions included in standardized matrix analysis of near-term freshwater quality forecasting papers:
+
+Forecast variables, scales, models, and skill:
+
+What is the forecast ecosystem? Use the term the authors use in the paper.
+Is the forecast targeting a physical, chemical, or biological variable, or some combination of the three?
+
+List the target forecast variable(s), separated by commas (e.g., DOC concentration, streamflow).
+
+What is the minimum forecast horizon in days?
+
+What is the maximum forecast horizon in days?
+
+List the forecast skill metric(s) used, separated by commas (e.g., R2, RMSE); leave blank if forecast not assessed.
+
+Does the paper include a multi-model (2 or more models) comparison?
+
+Does the paper include a simple null model, defined as either a persistence model, the historical mean (climatology), or a first-order autoregressive model?
+
+How is uncertainty incorporated? Options are following (Dietze et al. 2021): present = The model contains this concept (e.g. the model has parameters), but the values used are not derived from data and no uncertainty is represented (e.g. spin-up initial conditions, drivers are scenarios, hand-tuned single-value parameters); data_driven = The model contains this concept and the inputs are data driven but uncertainty in this input is not explicitly propagated into predictions (e.g. calibrated model parameters, a single time series of observed meteorological driver data). For sake of internal consistency, quantitative forecasts of other variables that are used as inputs into ecological forecasts (e.g. weather forecasts) should be treated as data.; propagates = The model propagates uncertainty about this term into forecasts. The most common example of this is a model run multiple times (i.e. ensemble) that samples the distributions of parameters, initial conditions, or drivers. Alternatively, one might be using an analytical approach to estimate how input uncertainties for a specific term translates into output uncertainties.; assimilates = The model iteratively updates this term through data assimilation. An example would be using a formal variational (e.g. 4DVar) or ensemble (EnKF, PF) data assimilation approach. For simpler models, this would also include iteratively refitting the whole model in light of new data.
+
+Forecast infrastructure and workflows:
+
+Is the forecast iterative, defined as regularly updated and re-issued when new data become available?
+
+Is the forecast described by the authors as automated, meaning it can be reissued without manual intervention by a human?
+
+Is the forecast archived? Select yes if the archiving is noted in the text, otherwise select no/don't know.
+
+Human dimensions of forecasts:
+
+What is the stated motivation for forecast development? Be brief; copy-pasting in quotations is fine but indicate this using quotation marks (" "); leave blank if not stated.
+
+Who is the stated end user? Spell out acronyms; leave blank if there isn't one.
+
+How were end users/stakeholders engaged in development? Be brief; leave blank if not applicable.
+
+Finally, we analyzed our tabular data from both the initial screen of freshwater forecasts and matrix analysis of near-term freshwater quality forecasts to assess the state of the field of freshwater forecasting as well recent progress and ongoing opportunities following our focal questions. All analysis code is available on Github (https://github.com/melofton/freshwater-forecasting-review) and published with a DOI on Zenodo [placeholder for Zenodo DOI].
+
+References:
+
+Dietze, Michael, R. Q. Thomas, J. Peters, and C. Boettiger. 2021. "A Community Convention for Ecological Forecasting: Output Files and Metadata." EcoEvoRxiv Preprints. 2021. https://ecoevorxiv.org/9dgtq/.
+
+Grant, Maria J., and Andrew Booth. 2009. "A Typology of Reviews: An Analysis of 14 Review Types and Associated Methodologies." Health Information and Libraries Journal 26 (2): 91-108.
+
