@@ -43,6 +43,7 @@ library(tidyverse)
 ?template_core_metadata
 ?template_table_attributes
 ?template_categorical_variables #don't run this till later
+?template_geographic_coverage
 
 # Import templates for our dataset licensed under CCBY, with 1 table.
 template_core_metadata(path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/data/EDI",
@@ -54,6 +55,14 @@ template_table_attributes(path = "C:/Users/Mary Lofton/Documents/RProjects/fresh
                           data.path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/data/EDI",
                           data.table = "freshwater-forecasting-review-results.csv",
                           write.file = TRUE)
+
+#we want empty to be true for this because we don't include lat/long
+#as columns within our dataset but would like to provide them
+template_geographic_coverage(path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/data/EDI",
+                             data.path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/data/EDI",
+                             data.table = "freshwater-forecasting-review-results.csv",
+                             empty = TRUE,
+                             write.file = TRUE)
 
 #Step 6: Script your workflow
 #that's what this is, silly!
@@ -139,6 +148,7 @@ make_eml(
   maintenance.description = 'complete',
   data.table = "freshwater-forecasting-review-results.csv",
   data.table.description = "Freshwater forecasting review results",
+  data.table.quote.character = '"',
   other.entity = "EDI_data_QAQC_and_formatting.R",
   other.entity.description = "data aggregation and quality control script",
   user.id = 'melofton',

@@ -29,11 +29,11 @@ Researcher Ids	individual author identifiers that are not ORCIDs	character
 ORCIDs	author ORCIDs	character				
 Funding Orgs	organizations funding the work presented in the paper	character				
 Funding Text	acknowledgements text from paper listing funding sources	character				
-Cited Reference Count	number of documents cited by the current paper	numeric	papers			
-Times Cited, WoS Core	number of times paper was cited by products within the Web of Science database	numeric	papers			
-Times Cited, All Databases	number of times paper was cited across all databases accessible by Web of Science	numeric	papers			
-180 Day Usage Count	number of times paper was accessed in last 180 days	numeric	times accessed			
-Since 2013 Usage Count	number of times paper was accessed since 2013	numeric	times accessed			
+Cited Reference Count	number of documents cited by the current paper	numeric	number			
+Times Cited, WoS Core	number of times paper was cited by products within the Web of Science database	numeric	number			
+Times Cited, All Databases	number of times paper was cited across all databases accessible by Web of Science	numeric	number			
+180 Day Usage Count	number of times paper was accessed in last 180 days	numeric	number			
+Since 2013 Usage Count	number of times paper was accessed since 2013	numeric	number			
 Publisher	publisher of paper	character				
 Publisher City	city of paper publisher	character				
 Publisher Address	address of paper publisher	character				
@@ -55,7 +55,7 @@ Article Number	article number within journal, if applicable	character
 DOI	digitial object identifier for record	character				
 Book DOI	digital object identifier for book, if applicable	character				
 Early Access Date	date record was avaiable via early access	Date		MMM YYYY		
-Number of Pages	page length of record	numeric	pages			
+Number of Pages	page length of record	numeric	number			
 WoS Categories	subject categories for record assigned by Web of Science	character				
 Web of Science Index	index from which abstract was extracted	character				
 Research Areas	subject areas of research	character				
@@ -64,7 +64,7 @@ UT (Unique WOS ID)	a record identifier unique to Web of Science	character
 Pubmed Id	ID number for records of documents that have corresponding records on MEDLINE	character				
 Open Access Designations	open access designations assigned by Web of Science following https://clarivate.com/blog/a-researchers-complete-guide-to-open-access-papers/	character				
 Date of Export	date record was retrieved from Web of Science	Date		yyyy-mm-dd		
-result_num	unique identifier for freshwater forecasting analysis	numeric	NA			
+result_num	unique identifier for freshwater forecasting analysis	character				
 title_screen	indicates whether paper passed title screen of freshwater forecasting analysis	categorical				
 freshwater	indicates whether research is regarding a freshwater ecosystem	categorical				
 forecast	indicates whether a paper presents prediction of the future	categorical				
@@ -76,8 +76,8 @@ ecosystem	what type of ecosystem is the research conducted in	character
 other_ecosystem	identifies the focal ecosystem of the paper if it cannot be categorized according to the 'ecosystem' column	character				
 phys_chem_bio	indicates whether the target forecast variable is physical, chemical, biological, or whether the paper includes multiple papers across these categories	character				
 forecast_vars	lists the target forecast variables	character				
-min_horizon_days	the minimum forecast horizon in days	numeric	days			
-max_horizon_days	the maximum forecast horizon in days	numeric	days			
+min_horizon_days	the minimum forecast horizon in days	numeric	nominalDay			
+max_horizon_days	the maximum forecast horizon in days	numeric	nominalDay			
 skill_metrics	lists the forecast skill assessment metrics used in the paper; see Table 2 of associated freshwater forecasting review publication for definition of abbreviations	character				
 model_comparison	indicates whether the paper compared the focal forecast model to another model (but not necessarily a null model)	categorical				
 simple_null_model	indicates whether the paper compared the focal forecast model to a null model, defined as a persistance, first-order autoregressive, or historical mean model	categorical				

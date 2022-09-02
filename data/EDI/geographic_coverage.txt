@@ -1,0 +1,2 @@
+geographicDescription	northBoundingCoordinate	southBoundingCoordinate	eastBoundingCoordinate	westBoundingCoordinate
+area represented in literature review	70.0	-70.0	159.0	-160.0
