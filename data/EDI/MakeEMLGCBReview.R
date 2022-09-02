@@ -17,6 +17,9 @@ library(devtools)
 install_github("EDIorg/EMLassemblyline")
 library(EMLassemblyline)
 
+# Load other needed packages
+library(tidyverse)
+
 #Step 1: Create a directory for your dataset
 #in this case, our directory is freshwater-forecasting-review/EDI
 
@@ -75,18 +78,21 @@ template_table_attributes(path = "C:/Users/Mary Lofton/Documents/RProjects/fresh
 #DO NOT EDIT KEYWORDS FILE USING A TEXT EDITOR!! USE EXCEL!!
 #see the LabKeywords.txt file for keywords that are mandatory for all Carey Lab data products
 
-#Step 11: Personnel
+#Step 11: Personnel - check
 #copy-paste this information in from your metadata document
 #Cayelan needs to be listed several times; she has to be listed separately for her roles as
 #PI, creator, and contact, and also separately for each separate funding source (!!)
 
-#Step 12: Attributes
+#Step 12: Attributes - check
 #grab attribute names and definitions from your metadata word document
 #for units....
 # View and search the standard units dictionary
 view_unit_dictionary()
 #put flag codes and site codes in the definitions cell
 #force reservoir to categorical
+dat <- read_csv("./data/EDI/freshwater-forecasting-review-results.csv") %>%
+  select(-`Cited References`,-`Meeting Abstract`,-`Highly Cited Status`,-`Hot Paper Status`,-null_model)
+write.csv(dat, "./data/EDI/freshwater-forecasting-review-results.csv",row.names = FALSE)
 
 #if you need to make custom units that aren't in the unit dictionary,
 #use the customunits.txt file and the directions on the EMLassemblyline Github to do so
@@ -94,12 +100,12 @@ view_unit_dictionary()
 #Step 13: Close files
 #if all your files aren't closed, sometimes functions don't work
 
-#Step 14: Categorical variables
+#Step 14: Categorical variables - check
 # Run this function for your dataset
 #THIS WILL ONLY WORK once you have filled out the attributes_FluoroProbe.txt and
 #identified which variables are categorical
-template_categorical_variables(path = "C:/Users/Mary Lofton/Documents/Github/Reservoirs/Data/DataAlreadyUploadedToEDI/EDIProductionFiles/MakeEMLFluoroProbe/2020",
-                               data.path = "C:/Users/Mary Lofton/Documents/Github/Reservoirs/Data/DataAlreadyUploadedToEDI/EDIProductionFiles/MakeEMLFluoroProbe/2020",
+template_categorical_variables(path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/data/EDI",
+                               data.path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/data/EDI",
                                write.file = TRUE)
 
 #open the created value IN A SPREADSHEET EDITOR and add a definition for each category
@@ -125,19 +131,19 @@ template_categorical_variables(path = "C:/Users/Mary Lofton/Documents/Github/Res
 
 # Run this function
 make_eml(
-  path = "C:/Users/Mary Lofton/Documents/RProjects/Reservoirs/Data/DataAlreadyUploadedToEDI/EDIProductionFiles/MakeEMLFluoroProbe/2021",
-  data.path = "C:/Users/Mary Lofton/Documents/RProjects/Reservoirs/Data/DataAlreadyUploadedToEDI/EDIProductionFiles/MakeEMLFluoroProbe/2021",
-  eml.path = "C:/Users/Mary Lofton/Documents/RProjects/Reservoirs/Data/DataAlreadyUploadedToEDI/EDIProductionFiles/MakeEMLFluoroProbe/2021",
-  dataset.title = "Time-series of high-frequency profiles of fluorescence-based phytoplankton spectral groups in Beaverdam Reservoir, Carvins Cove Reservoir, Falling Creek Reservoir, Gatewood Reservoir, and Spring Hollow Reservoir in southwestern Virginia, USA 2014-2021",
-  temporal.coverage = c("2014-05-04", "2021-12-06"),
-  maintenance.description = 'ongoing',
-  data.table = "FluoroProbe_2014_2021.csv",
-  data.table.description = "Reservoir FluoroProbe dataset",
-  other.entity = "FluoroProbe_QAQC_2014_2021.R",
+  path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/data/EDI",
+  data.path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/data/EDI",
+  eml.path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/data/EDI",
+  dataset.title = "State-of-the-art review of near-term freshwater forecasting literature published between 2017 and 2022",
+  temporal.coverage = c("2017-01-01", "2022-02-17"),
+  maintenance.description = 'complete',
+  data.table = "freshwater-forecasting-review-results.csv",
+  data.table.description = "Freshwater forecasting review results",
+  other.entity = "EDI_data_QAQC_and_formatting.R",
   other.entity.description = "data aggregation and quality control script",
-  user.id = 'ccarey',
+  user.id = 'melofton',
   user.domain = 'EDI',
-  package.id = 'edi.123.6')
+  package.id = 'edi.960.1')
 
 ## Step 8: Check your data product! ####
 # Return to the EDI staging environment (https://portal-s.edirepository.org/nis/home.jsp),

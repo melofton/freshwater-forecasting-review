@@ -1,95 +1,90 @@
 attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-Publication Type		categorical				
-Authors		character				
-Book Authors		character				
-Book Editors		character				
-Book Group Authors		categorical				
-Author Full Names		character				
-Book Author Full Names		character				
-Group Authors		character				
-Article Title		character				
-Source Title		character				
-Book Series Title		character				
-Book Series Subtitle		character				
-Language		categorical				
-Document Type		categorical				
-Conference Title		character				
-Conference Date		Date		!Add datetime specifier here!		
-Conference Location		character				
-Conference Sponsor		character				
-Conference Host		character				
-Author Keywords		character				
-Keywords Plus		character				
-Abstract		character				
-Addresses		character				
-Affiliations		character				
-Reprint Addresses		character				
-Email Addresses		character				
-Researcher Ids		character				
-ORCIDs		character				
-Funding Orgs		character				
-Funding Text		character				
-Cited References		character				
-Cited Reference Count		numeric	!Add units here!			
-Times Cited, WoS Core		Date		!Add datetime specifier here!		
-Times Cited, All Databases		Date		!Add datetime specifier here!		
-180 Day Usage Count		Date		!Add datetime specifier here!		
-Since 2013 Usage Count		numeric	!Add units here!			
-Publisher		categorical				
-Publisher City		categorical				
-Publisher Address		categorical				
-ISSN		character				
-eISSN		character				
-ISBN		character				
-Journal Abbreviation		character				
-Journal ISO Abbreviation		character				
-Publication Date		Date		!Add datetime specifier here!		
-Publication Year		Date		!Add datetime specifier here!		
-Volume		character				
-Issue		categorical				
-Part Number		character				
-Supplement		numeric	!Add units here!			
-Special Issue		categorical				
-Meeting Abstract		character				
-Start Page		character				
-End Page		character				
-Article Number		character				
-DOI		character				
-Book DOI		character				
-Early Access Date		Date		!Add datetime specifier here!		
-Number of Pages		numeric	!Add units here!			
-WoS Categories		character				
-Web of Science Index		categorical				
-Research Areas		character				
-IDS Number		character				
-UT (Unique WOS ID)		character				
-Pubmed Id		numeric	!Add units here!			
-Open Access Designations		categorical				
-Highly Cited Status		categorical				
-Hot Paper Status		categorical				
-Date of Export		Date		!Add datetime specifier here!		
-result_num		numeric	!Add units here!			
-title_screen		categorical				
-freshwater		categorical				
-forecast		categorical				
-uncertainty_present		categorical				
-nearterm		categorical				
-model_approach		categorical				
-hydrological		categorical				
-ecosystem		character				
-other_ecosystem		character				
-phys_chem_bio		character				
-forecast_vars		character				
-min_horizon_days		Date		!Add datetime specifier here!		
-max_horizon_days		Date		!Add datetime specifier here!		
-skill_metrics		character				
-null_model		categorical				
-model_comparison		categorical				
-simple_null_model		categorical				
-uncertainty_method		categorical				
-iterative		categorical				
-automated		categorical				
-archived		categorical				
-motivation		character				
-end_user		character				
-engagement		character				
+Publication Type	reports whether a publication is a book, book series, journal article, or conference proceedings	categorical				
+Authors	authors of paper	character				
+Book Authors	authors of book, if applicable	character				
+Book Editors	editors of book, if applicable	character				
+Book Group Authors	organization or institution credited with book authorship	character				
+Author Full Names	full names of authors of paper	character				
+Book Author Full Names	full names of authors of book, if applicable	character				
+Group Authors	organization or institution credited with paper authorship	character				
+Article Title	title of paper	character				
+Source Title	title of paper source, most often the journal in which it was published	character				
+Book Series Title	title of book series, if applicable	character				
+Book Series Subtitle	subtitle of book series, if applicable	character				
+Language	language of paper as originally published	character				
+Document Type	the document type of a paper	character				
+Conference Title	title of conference at which paper was presented, if applicable	character				
+Conference Date	date of conference at which paper was presented, if applicable	Date		MMM DD-DD YYYY		
+Conference Location	location of conference at which paper was presented, if applicable	character				
+Conference Sponsor	sponsor of conference at which paper was presented, if applicable	character				
+Conference Host	host of conference at which paper was presented, if applicable	character				
+Author Keywords	keywords listed by the authors	character				
+Keywords Plus	index terms generated from the title of the article	character				
+Abstract	article abstract	character				
+Addresses	author addresses	character				
+Affiliations	author affiliations	character				
+Reprint Addresses	the address of the corresponding author	character				
+Email Addresses	author email addresses	character				
+Researcher Ids	individual author identifiers that are not ORCIDs	character				
+ORCIDs	author ORCIDs	character				
+Funding Orgs	organizations funding the work presented in the paper	character				
+Funding Text	acknowledgements text from paper listing funding sources	character				
+Cited Reference Count	number of documents cited by the current paper	numeric	papers			
+Times Cited, WoS Core	number of times paper was cited by products within the Web of Science database	numeric	papers			
+Times Cited, All Databases	number of times paper was cited across all databases accessible by Web of Science	numeric	papers			
+180 Day Usage Count	number of times paper was accessed in last 180 days	numeric	times accessed			
+Since 2013 Usage Count	number of times paper was accessed since 2013	numeric	times accessed			
+Publisher	publisher of paper	character				
+Publisher City	city of paper publisher	character				
+Publisher Address	address of paper publisher	character				
+ISSN	8-digit International Standard Serial Number	character				
+eISSN	8-digit International Standard Serial Number for the electronic version of a record	character				
+ISBN	13-digit International Standard Book Number, if applicable	character				
+Journal Abbreviation	text abbreviation of journal name where record is published	character				
+Journal ISO Abbreviation	International Organization for Standardization abbreviation of journal name where record is published	character				
+Publication Date	month and day (if available) of record publication	Date		MMM DD		
+Publication Year	year of record publication	Date		YYYY		
+Volume	journal volume where paper is published	character				
+Issue	journal issue where paper is published	character				
+Part Number	journal part or number where paper is published, if applicable	character				
+Supplement	supplement number, if applicable	character				
+Special Issue	indicates whether the record was part of a journal special issue	categorical				
+Start Page	page number of first page of record	character				
+End Page	page number of last page of record	character				
+Article Number	article number within journal, if applicable	character				
+DOI	digitial object identifier for record	character				
+Book DOI	digital object identifier for book, if applicable	character				
+Early Access Date	date record was avaiable via early access	Date		MMM YYYY		
+Number of Pages	page length of record	numeric	pages			
+WoS Categories	subject categories for record assigned by Web of Science	character				
+Web of Science Index	index from which abstract was extracted	character				
+Research Areas	subject areas of research	character				
+IDS Number	unique identifier for journal issue where article was published, if applicable	character				
+UT (Unique WOS ID)	a record identifier unique to Web of Science	character				
+Pubmed Id	ID number for records of documents that have corresponding records on MEDLINE	character				
+Open Access Designations	open access designations assigned by Web of Science following https://clarivate.com/blog/a-researchers-complete-guide-to-open-access-papers/	character				
+Date of Export	date record was retrieved from Web of Science	Date		yyyy-mm-dd		
+result_num	unique identifier for freshwater forecasting analysis	numeric	NA			
+title_screen	indicates whether paper passed title screen of freshwater forecasting analysis	categorical				
+freshwater	indicates whether research is regarding a freshwater ecosystem	categorical				
+forecast	indicates whether a paper presents prediction of the future	categorical				
+uncertainty_present	indicates whether a paper specifies uncertainty of a future prediction	categorical				
+nearterm	indicates whether the minimum horizon of a future prediction is less than or equal to 10 years	categorical				
+model_approach	indicates the type of model used by the authors to make future predictions	character				
+hydrological	indicates whether the only target variable for future predictions is hydrological, e.g., river flow, water level	categorical				
+ecosystem	what type of ecosystem is the research conducted in	character				
+other_ecosystem	identifies the focal ecosystem of the paper if it cannot be categorized according to the 'ecosystem' column	character				
+phys_chem_bio	indicates whether the target forecast variable is physical, chemical, biological, or whether the paper includes multiple papers across these categories	character				
+forecast_vars	lists the target forecast variables	character				
+min_horizon_days	the minimum forecast horizon in days	numeric	days			
+max_horizon_days	the maximum forecast horizon in days	numeric	days			
+skill_metrics	lists the forecast skill assessment metrics used in the paper; see Table 2 of associated freshwater forecasting review publication for definition of abbreviations	character				
+model_comparison	indicates whether the paper compared the focal forecast model to another model (but not necessarily a null model)	categorical				
+simple_null_model	indicates whether the paper compared the focal forecast model to a null model, defined as a persistance, first-order autoregressive, or historical mean model	categorical				
+uncertainty_method	indicates the method of uncertainty specification used in the paper	categorical				
+iterative	indicates whether or not the forecast is iterative	categorical				
+automated	indicates whether or not the forecast workflow is identified as automated by the authors, where automated defined as being triggered without a human taking action	categorical				
+archived	indicates whether forecast output is stated as being archived by the authors	categorical				
+motivation	summaries or direct quotations extracted from the paper characterizing the motivation for taking a forecasting approach to solve the research problem	character				
+end_user	list the end users of the forecast as stated by the authors, if applicable	character				
+engagement	characterizes how end users were engaged according to the authors	character				

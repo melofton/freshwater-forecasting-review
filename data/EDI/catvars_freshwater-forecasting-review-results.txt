@@ -1,0 +1,50 @@
+attributeName	code	definition
+archived	no/don't know	forecast output archiving not reported by authors
+archived	yes	forecast output archiving reported by authors
+archived	NA	paper did not meet criteria for matrix analysis
+automated	no	forecast workflow not automated
+automated	yes	forecast workflow automated
+automated	NA	paper did not meet criteria for matrix analysis
+forecast	can't tell	whether the paper presents a prediction into the future was not determined because the paper was not available in English
+forecast	forecast	paper presents a prediction into the future
+forecast	hindcast	paper presents a prediction into the future from the perspective of the model for a time period that is now past
+forecast	none of the above	paper does not present a prediction into the future
+forecast	nowcast	paper presents a prediction of current conditions at a spatial point or region for which data is not available
+forecast	NA	paper did not pass title screen and therefore this question was unanswered
+freshwater	no	paper does not present freshwater research
+freshwater	yes; groundwater	paper presents freshwater research about groundwater
+freshwater	yes; surface water	paper present freshwater research about surface water
+freshwater	NA	paper did not pass title screen and therefore this question was unanswered
+hydrological	no	paper includes target variables that are not hydrological
+hydrological	yes	paper includes only hydrological target variables (e.g., streamflow, water level)
+hydrological	NA	paper did not pass title screen and therefore this question was unanswered
+iterative	no	forecast is not iteratively produced
+iterative	yes	forecast is iteratively produced
+iterative	NA	paper did not pass title screen and therefore this question was unanswered
+model_comparison	no	the focal forecast model is not compared to other models
+model_comparison	yes	the focal forecast model is compared to other models
+model_comparison	NA	paper did not meet criteria for matrix analysis
+nearterm	can't tell	whether the minimum forecast horizon is less than or equal to 10 years was not determined because the paper was not available in English
+nearterm	no	the minimum forecast is greater than 10 years
+nearterm	yes	the minimum forecast horizon is less than or equal to 10 years
+nearterm	NA	paper did not meet criteria for matrix analysis
+Publication Type	B	book
+Publication Type	C	conference proceedings
+Publication Type	J	journal
+Publication Type	S	series
+simple_null_model	no	the focal forecast model was not compared to a simple null model, defined as a persistance, historical mean, or first order autoregressive model
+simple_null_model	yes	the focal forecast model was compared to a simple null model, defined as a persistance, historical mean, or first order autoregressive model
+simple_null_model	NA	paper did not meet criteria for matrix analysis
+Special Issue	SI	paper was part of a journal special issue
+Special Issue	NA	paper was not part of a journal special issue
+title_screen	n	paper did not pass title screen
+title_screen	y	paper passed title screen
+uncertainty_method	assimilates	The model iteratively updates this term through data assimilation. An example would be using a formal variational (e.g. 4DVar) or ensemble (EnKF, PF) data assimilation approach. For simpler models, this would also include iteratively refitting the whole model in light of new data.
+uncertainty_method	data_driven	The model contains this concept and the inputs are data driven but uncertainty in this input is not explicitly propagated into predictions (e.g. calibrated model parameters, a single time series of observed meteorological driver data). For sake of internal consistency, quantitative forecasts of other variables that are used as inputs into ecological forecasts (e.g. weather forecasts) should be treated as data.
+uncertainty_method	present	The model contains this concept (e.g. the model has parameters), but the values used are not derived from data and no uncertainty is represented (e.g. spin-up initial conditions, drivers are scenarios, hand-tuned single-value parameters)
+uncertainty_method	propagates	The model propagates uncertainty about this term into forecasts. The most common example of this is a model run multiple times (i.e. ensemble) that samples the distributions of parameters, initial conditions, or drivers. Alternatively, one might be using an analytical approach to estimate how input uncertainties for a specific term translates into output uncertainties.
+uncertainty_method	NA	paper did not meet criteria for matrix analysis
+uncertainty_present	can't tell	whether the forecast specifies uncertainty was not determined because the paper was not available in English
+uncertainty_present	no	the forecast does not specify uncertainty
+uncertainty_present	yes	the forecast specifies uncertainty
+uncertainty_present	NA	paper did not pass title screen and therefore this question was unanswered

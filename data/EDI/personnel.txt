@@ -1,1 +1,9 @@
 givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Mary	E.	Lofton	Virginia Tech	melofton@vt.edu	0000-0003-3270-1330	creator			
+Dexter	W.	Howard	Virginia Tech	dwh1998@vt.edu	0000-0002-6118-2149	creator			
+R. Quinn		Thomas	Virginia Tech	rqthomas@vt.edu		creator			
+Cayelan	C.	Carey	Virginia Tech	cayelan@vt.edu	0000-0001-8835-4476	creator			
+Cayelan	C.	Carey	Virginia Tech	cayelan@vt.edu	0000-0001-8835-4476	contact			
+Cayelan	C.	Carey	Virginia Tech	cayelan@vt.edu	0000-0001-8835-4476	PI	MSA: Macrosystems EDDIE: An undergraduate training program in macrosystems science and ecological forecasting	National Science Foundation	1926050
+Cayelan	C.	Carey	Virginia Tech	cayelan@vt.edu	0000-0001-8835-4476	PI	Collaborative Research: CIBR: Cyberinfrastructure Enabling End-to-End Workflows for Aquatic Ecosystem Forecasting	National Science Foundation	1933016
+R. Quinn		Thomas	Virginia Tech	rqthomas@vt.edu		PI	NEON RCN: The Ecological Forecasting Initiative RCN: Using NEON-enabled near-term forecasting to synthesize our understanding of predictability across ecological systems and scales	National Science Foundation	1926388
