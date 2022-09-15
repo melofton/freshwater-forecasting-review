@@ -1,0 +1,9 @@
+cff-version: 1.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Lofton, Howard, Thomas, Carey
+    given-names: Mary, Dexter, Quinn, Cayelan
+title: "Code repository: Progress and opportunities in advancing near-term forecasting of freshwater quality"
+version: 1.0
+doi: 
+date-released: 2022-09-15
