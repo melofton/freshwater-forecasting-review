@@ -1,0 +1,42 @@
+{
+    "creators": [
+        {
+            "orcid": "0000-0003-3270-1330",
+            "affiliation": "Virginia Tech",
+            "name": "Lofton, Mary E."
+        },
+        {
+            "orcid": "0000-0002-6118-2149",
+            "affiliation": "Virginia Tech",
+            "name": "Howard, Dexter W."
+        },
+		{
+            "orcid": "",
+            "affiliation": "Virginia Tech",
+            "name": "Thomas, R. Quinn"
+        },
+		{
+            "orcid": "0000-0001-8835-4476",
+            "affiliation": "Virginia Tech",
+            "name": "Carey, Cayelan C."
+        }
+    ],
+
+    "license": "CCBY",
+
+    "title": "Code repository: Progress and opportunities in advancing near-term forecasting of freshwater quality",
+
+    "related_identifiers": [
+        {
+            "scheme": "doi",
+            "identifier": "",
+            "relation": "isDocumentedBy",
+            "resource_type": "publication-article"
+        }
+    ],
+
+    "keywords": ["data assimilation", "ecological forecasting", "hydrological forecasting", "hindcast", "near-term iterative forecasting cycle", "uncertainty", "water quality"],
+
+    
+    "grants": [{"id":"NSF DEB-1926050"}]
+}
