@@ -56,6 +56,11 @@ template_table_attributes(path = "C:/Users/Mary Lofton/Documents/RProjects/fresh
                           data.table = "freshwater-forecasting-review-results.csv",
                           write.file = TRUE)
 
+template_table_attributes(path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/data/EDI",
+                          data.path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/data/EDI",
+                          data.table = "Fig4_data.csv",
+                          write.file = TRUE)
+
 #we want empty to be true for this because we don't include lat/long
 #as columns within our dataset but would like to provide them
 template_geographic_coverage(path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/data/EDI",

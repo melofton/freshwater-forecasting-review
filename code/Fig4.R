@@ -9,7 +9,7 @@ rm(list = ls())
 pacman::p_load(tidyverse, lubridate, cowplot, viridis)
 
 #read in data
-wq_targets <- read_csv("./data/wq_for_target_var.csv")
+wq_targets <- read_csv("./data/Fig4_data.csv")
 
 #munge data
 targets <- strsplit(wq_targets$`Target Variables`, split = ",")
