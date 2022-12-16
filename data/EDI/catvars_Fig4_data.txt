@@ -1,3 +1,3 @@
 attributeName	code	definition
-Title Screen		paper title is missing
-Title Screen	y	paper passed title screen for relevancy
+title_screen		paper title is missing
+title_screen	y	paper passed title screen for relevancy

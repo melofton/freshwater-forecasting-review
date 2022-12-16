@@ -108,6 +108,11 @@ dat <- read_csv("./data/EDI/freshwater-forecasting-review-results.csv") %>%
   select(-`Cited References`,-`Meeting Abstract`,-`Highly Cited Status`,-`Hot Paper Status`,-null_model)
 write.csv(dat, "./data/EDI/freshwater-forecasting-review-results.csv",row.names = FALSE)
 
+dat2 <- read_csv("./data/EDI/Fig4_data.csv") %>%
+  rename(article_title = `Article Title`,result_number = `Result Number`,
+         target_variables = `Target Variables`,title_screen = `Title Screen`)
+write.csv(dat2, "./data/EDI/Fig4_data.csv",row.names = FALSE)
+
 #if you need to make custom units that aren't in the unit dictionary,
 #use the customunits.txt file and the directions on the EMLassemblyline Github to do so
 
@@ -154,7 +159,7 @@ make_eml(
   maintenance.description = 'complete',
   data.table = c("freshwater-forecasting-review-results.csv","Fig4_data.csv"),
   data.table.description = c("Freshwater forecasting review results","Data table to creat Fig. 4"),
-  data.table.quote.character = c('"',''),
+  data.table.quote.character = c('"','"'),
   other.entity = "EDI_data_QAQC_and_formatting.R",
   other.entity.description = "data aggregation and quality control script",
   user.id = 'melofton',

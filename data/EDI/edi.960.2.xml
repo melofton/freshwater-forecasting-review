@@ -1638,8 +1638,8 @@ Is the forecast targeting a physical, chemical, or biological variable, or some 
       <entityDescription>Data table to creat Fig. 4</entityDescription>
       <physical>
         <objectName>Fig4_data.csv</objectName>
-        <size unit="bytes">10443</size>
-        <authentication method="MD5">3bd5a8409b43ed7ca16963df4071dd6f</authentication>
+        <size unit="bytes">10899</size>
+        <authentication method="MD5">782b6e0b3a6c51ac81773057b8bc6689</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
@@ -1647,13 +1647,14 @@ Is the forecast targeting a physical, chemical, or biological variable, or some 
             <attributeOrientation>column</attributeOrientation>
             <simpleDelimited>
               <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
             </simpleDelimited>
           </textFormat>
         </dataFormat>
       </physical>
       <attributeList>
         <attribute>
-          <attributeName>Result Number</attributeName>
+          <attributeName>result_number</attributeName>
           <attributeDefinition>unique identifier for papers retrieved in literature search</attributeDefinition>
           <storageType>float</storageType>
           <measurementScale>
@@ -1672,7 +1673,7 @@ Is the forecast targeting a physical, chemical, or biological variable, or some 
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>Article Title</attributeName>
+          <attributeName>article_title</attributeName>
           <attributeDefinition>title of article</attributeDefinition>
           <storageType>string</storageType>
           <measurementScale>
@@ -1686,7 +1687,7 @@ Is the forecast targeting a physical, chemical, or biological variable, or some 
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>Target Variables</attributeName>
+          <attributeName>target_variables</attributeName>
           <attributeDefinition>target forecast variables</attributeDefinition>
           <storageType>string</storageType>
           <measurementScale>
@@ -1700,7 +1701,7 @@ Is the forecast targeting a physical, chemical, or biological variable, or some 
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>Title Screen</attributeName>
+          <attributeName>title_screen</attributeName>
           <attributeDefinition>y or n depending on whether paper passed title screen for relevance</attributeDefinition>
           <storageType>string</storageType>
           <measurementScale>
