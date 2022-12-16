@@ -122,6 +122,7 @@ template_categorical_variables(path = "C:/Users/Mary Lofton/Documents/RProjects/
                                data.path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/data/EDI",
                                write.file = TRUE)
 
+
 #open the created value IN A SPREADSHEET EDITOR and add a definition for each category
 
 #Step 15: Geographic coverage
@@ -151,14 +152,14 @@ make_eml(
   dataset.title = "State-of-the-art review of near-term freshwater forecasting literature published between 2017 and 2022",
   temporal.coverage = c("2017-01-01", "2022-02-17"),
   maintenance.description = 'complete',
-  data.table = "freshwater-forecasting-review-results.csv",
-  data.table.description = "Freshwater forecasting review results",
-  data.table.quote.character = '"',
+  data.table = c("freshwater-forecasting-review-results.csv","Fig4_data.csv"),
+  data.table.description = c("Freshwater forecasting review results","Data table to creat Fig. 4"),
+  data.table.quote.character = c('"','"'),
   other.entity = "EDI_data_QAQC_and_formatting.R",
   other.entity.description = "data aggregation and quality control script",
   user.id = 'melofton',
   user.domain = 'EDI',
-  package.id = 'edi.960.1')
+  package.id = 'edi.960.2')
 
 ## Step 8: Check your data product! ####
 # Return to the EDI staging environment (https://portal-s.edirepository.org/nis/home.jsp),
