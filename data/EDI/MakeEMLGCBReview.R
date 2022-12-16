@@ -154,7 +154,7 @@ make_eml(
   maintenance.description = 'complete',
   data.table = c("freshwater-forecasting-review-results.csv","Fig4_data.csv"),
   data.table.description = c("Freshwater forecasting review results","Data table to creat Fig. 4"),
-  data.table.quote.character = c('"','"'),
+  data.table.quote.character = c('"',''),
   other.entity = "EDI_data_QAQC_and_formatting.R",
   other.entity.description = "data aggregation and quality control script",
   user.id = 'melofton',

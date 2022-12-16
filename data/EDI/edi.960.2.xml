@@ -1647,7 +1647,6 @@ Is the forecast targeting a physical, chemical, or biological variable, or some 
             <attributeOrientation>column</attributeOrientation>
             <simpleDelimited>
               <fieldDelimiter>,</fieldDelimiter>
-              <quoteCharacter>"</quoteCharacter>
             </simpleDelimited>
           </textFormat>
         </dataFormat>
