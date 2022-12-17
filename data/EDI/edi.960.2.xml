@@ -1638,12 +1638,12 @@ Is the forecast targeting a physical, chemical, or biological variable, or some 
       <entityDescription>Data table to creat Fig. 4</entityDescription>
       <physical>
         <objectName>Fig4_data.csv</objectName>
-        <size unit="bytes">10899</size>
-        <authentication method="MD5">782b6e0b3a6c51ac81773057b8bc6689</authentication>
+        <size unit="bytes">10815</size>
+        <authentication method="MD5">e31e2fa0b317bc939c33def2213c1754</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
-            <recordDelimiter>\r\n</recordDelimiter>
+            <recordDelimiter>\n</recordDelimiter>
             <attributeOrientation>column</attributeOrientation>
             <simpleDelimited>
               <fieldDelimiter>,</fieldDelimiter>
@@ -1729,8 +1729,8 @@ Is the forecast targeting a physical, chemical, or biological variable, or some 
       <entityDescription>data aggregation and quality control script</entityDescription>
       <physical>
         <objectName>EDI_data_QAQC_and_formatting.R</objectName>
-        <size unit="bytes">8435</size>
-        <authentication method="MD5">93a7bc4791d1f43f5c4ebf66229c01ad</authentication>
+        <size unit="bytes">8197</size>
+        <authentication method="MD5">75c303dc42a68e084ee7f4b556a2ac6f</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>text/plain</formatName>
