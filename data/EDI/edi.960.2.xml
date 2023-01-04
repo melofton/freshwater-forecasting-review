@@ -1634,10 +1634,10 @@ Is the forecast targeting a physical, chemical, or biological variable, or some 
       <numberOfRecords>964</numberOfRecords>
     </dataTable>
     <dataTable>
-      <entityName>Fig4_data.csv</entityName>
+      <entityName>Fig5_data.csv</entityName>
       <entityDescription>Data table to creat Fig. 4</entityDescription>
       <physical>
-        <objectName>Fig4_data.csv</objectName>
+        <objectName>Fig5_data.csv</objectName>
         <size unit="bytes">10815</size>
         <authentication method="MD5">e31e2fa0b317bc939c33def2213c1754</authentication>
         <dataFormat>

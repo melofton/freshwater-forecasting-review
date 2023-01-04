@@ -1,0 +1,5 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+result_number	unique identifier for papers retrieved in literature search	numeric	number			
+article_title	title of article	character				
+target_variables	target forecast variables	character				
+title_screen	y or n depending on whether paper passed title screen for relevance	categorical			NA	paper title is not available

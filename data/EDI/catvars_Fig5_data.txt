@@ -1,0 +1,3 @@
+attributeName	code	definition
+title_screen		paper title is missing
+title_screen	y	paper passed title screen for relevancy

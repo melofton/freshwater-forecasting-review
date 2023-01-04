@@ -1,4 +1,4 @@
-#Fig. 5
+#Fig. 3: Water quality target variables
 #Author: Mary Lofton
 #Date: last updated 30AUG22
 
@@ -6,34 +6,33 @@
 rm(list = ls())
 
 #set-up
-pacman::p_load(tidyverse, lubridate, cowplot,ggbeeswarm, viridis)
+pacman::p_load(tidyverse, lubridate, cowplot, viridis)
 
-#read in data 
-dat5 <- read_csv("./data/cleaned_matrix.csv")
+#read in data
+wq_targets <- read_csv("./data/Fig5_data.csv")
 
-#Fig. 5
-dat6 <- dat5 %>%
-  mutate(ecosystem_type = ifelse(ecosystem == "river" | grepl("basin",other_ecosystem),"Lotic","Lentic"),
-         horizon_scale = ifelse(max_horizon_days<7,"days (< 7 days)",
-                                ifelse(max_horizon_days<30,"weeks (7-30 days)",
-                                       ifelse(max_horizon_days<365,"months (30-365 days)",
-                                              ifelse(max_horizon_days<3650,"years (365-3650 days)","decadal (>3650 days)")))),
-         horizon_scale = factor(horizon_scale, levels = c("days (< 7 days)","weeks (7-30 days)","months (30-365 days)","years (365-3650 days)","decadal (>3650 days)")))
+#munge data
+targets <- strsplit(wq_targets$`Target Variables`, split = ",")
+target_vector <- data.frame(targets = unlist(targets)) %>%
+  mutate(phys_chem_bio = ifelse(targets %in% c("ice","temperature","sediment/turbidity"),"physical",
+                                ifelse(targets %in% c("BOD/COD","conductivity/salinity","DO","gas emissions","hazardous chemical","metals","nutrients","pH","toxins/T&O compounds"),"chemical",
+                                       ifelse(targets == "index","multiple","biological"))))
+theTable <- within(target_vector, 
+                   targets <- factor(targets, 
+                                     levels=names(sort(table(targets), 
+                                                       decreasing=TRUE))))
 
-Fig5 <- ggplot(data = dat6, aes(x = unsuitable, y = horizon_scale, group = phys_chem_bio, shape = phys_chem_bio, color = phys_chem_bio))+
-  geom_beeswarm(priority='random',cex=18, groupOnX=T,size = 3)+
-  facet_grid(cols = vars(ecosystem_type),switch = "x")+
-  theme_bw()+
-  theme( # remove the vertical grid lines
-    panel.grid.major.x = element_blank(),
-    axis.text.x = element_blank(),
-    axis.ticks.x = element_blank())+
-  xlab("Ecosystem Type")+
-  ylab("Scale of maximum forecast horizon")+
-  scale_shape_manual(values = c(16,17,18,15),name = "Forecast Variable")+
-  scale_fill_viridis(discrete = TRUE,name = "Forecast Variable")+
-  scale_colour_viridis(discrete = TRUE,name = "Forecast Variable")
-Fig5
+#build figure
+targets <- ggplot(theTable, aes(x = targets, fill = phys_chem_bio))+
+  geom_bar(color = "black")+
+  theme_classic()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  xlab("Water Quality Target Variable")+
+  ylab("# of papers")+
+  theme(legend.position = "top")+
+  scale_fill_viridis(discrete = TRUE, name = "Variable Type")
 
-ggsave(Fig5, filename = "./figures/Fig5.tif",height = 4, width = 6,
+#plot and write figure
+targets
+ggsave(targets, filename = "./figures/Fig5.tif",height = 4, width = 8,
        units = "in", dpi = 300, dev = "tiff")

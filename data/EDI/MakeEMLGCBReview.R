@@ -58,7 +58,7 @@ template_table_attributes(path = "C:/Users/Mary Lofton/Documents/RProjects/fresh
 
 template_table_attributes(path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/data/EDI",
                           data.path = "C:/Users/Mary Lofton/Documents/RProjects/freshwater-forecasting-review/data/EDI",
-                          data.table = "Fig4_data.csv",
+                          data.table = "Fig5_data.csv",
                           write.file = TRUE)
 
 #we want empty to be true for this because we don't include lat/long
@@ -108,10 +108,10 @@ dat <- read_csv("./data/EDI/freshwater-forecasting-review-results.csv") %>%
   select(-`Cited References`,-`Meeting Abstract`,-`Highly Cited Status`,-`Hot Paper Status`,-null_model)
 write.csv(dat, "./data/EDI/freshwater-forecasting-review-results.csv",row.names = FALSE)
 
-dat2 <- read_csv("./data/EDI/Fig4_data.csv") %>%
+dat2 <- read_csv("./data/EDI/Fig5_data.csv") %>%
   rename(article_title = `Article Title`,result_number = `Result Number`,
          target_variables = `Target Variables`,title_screen = `Title Screen`)
-write.csv(dat2, "./data/EDI/Fig4_data.csv",row.names = FALSE)
+write.csv(dat2, "./data/EDI/Fig5_data.csv",row.names = FALSE)
 
 #if you need to make custom units that aren't in the unit dictionary,
 #use the customunits.txt file and the directions on the EMLassemblyline Github to do so
@@ -157,7 +157,7 @@ make_eml(
   dataset.title = "State-of-the-art review of near-term freshwater forecasting literature published between 2017 and 2022",
   temporal.coverage = c("2017-01-01", "2022-02-17"),
   maintenance.description = 'complete',
-  data.table = c("freshwater-forecasting-review-results.csv","Fig4_data.csv"),
+  data.table = c("freshwater-forecasting-review-results.csv","Fig5_data.csv"),
   data.table.description = c("Freshwater forecasting review results","Data table to creat Fig. 4"),
   data.table.quote.character = c('"','"'),
   other.entity = "EDI_data_QAQC_and_formatting.R",
