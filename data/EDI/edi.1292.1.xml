@@ -1,0 +1,1751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.1292.1" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=melofton,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>State-of-the-art review of near-term freshwater forecasting literature published between 2017 and 2022</title>
+    <creator>
+      <individualName>
+        <givenName>Mary</givenName>
+        <givenName>E.</givenName>
+        <surName>Lofton</surName>
+      </individualName>
+      <organizationName>Virginia Tech</organizationName>
+      <electronicMailAddress>melofton@vt.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-3270-1330</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Dexter</givenName>
+        <givenName>W.</givenName>
+        <surName>Howard</surName>
+      </individualName>
+      <organizationName>Virginia Tech</organizationName>
+      <electronicMailAddress>dwh1998@vt.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-6118-2149</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>R. Quinn</givenName>
+        <surName>Thomas</surName>
+      </individualName>
+      <organizationName>Virginia Tech</organizationName>
+      <electronicMailAddress>rqthomas@vt.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Cayelan</givenName>
+        <givenName>C.</givenName>
+        <surName>Carey</surName>
+      </individualName>
+      <organizationName>Virginia Tech</organizationName>
+      <electronicMailAddress>cayelan@vt.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-8835-4476</userId>
+    </creator>
+    <pubDate>2022-12-16</pubDate>
+    <abstract>
+      <para>This data publication includes code and results from a systematic literature review on the current state of near-term forecasting of freshwater quality. The review aimed to address the following questions: </para>
+      <para>(1) Freshwater variables, scales, models, and skill: Which freshwater variables and temporal scales are most commonly targeted for near-term forecasts, and what modeling methods are most commonly employed to develop these forecasts? How is the accuracy of freshwater quality forecasts assessed, and how accurate are they? How is uncertainty typically incorporated into water quality forecast output?</para>
+      <para>(2) Forecast infrastructure and workflows: Are iterative, automated workflows commonly employed in near-term freshwater quality forecasting? How are forecasts validated and archived?</para>
+      <para>(3) Human dimensions: What is the stated motivation for development of most near-term freshwater quality forecasts, and who are the most common end users (if any)? How are end users engaged in forecast development?</para>
+      <para>An initial search was conducted for published papers presenting freshwater quality forecasts from 1 January 2017 to 17 February 2022 in the Web of Science Core Collection. Results were subsequently analyzed in three stages. First, paper titles were screened for relevance. Second, an initial screen was conducted to assess whether each paper presented a near-term freshwater quality forecast. Third, papers that passed the initial screen were analyzed using a standardized matrix to assess the state of near-term freshwater quality forecasting and identify areas of recent progress and ongoing challenges. Additional details regarding the systematic literature search and review are presented in the Methods section of the metadata.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>data assimilation</keyword>
+      <keyword>decision support</keyword>
+      <keyword>ecological forecasting</keyword>
+      <keyword>forecast</keyword>
+      <keyword>forecast automation</keyword>
+      <keyword>forecast end user</keyword>
+      <keyword>forecast model</keyword>
+      <keyword>forecast skill</keyword>
+      <keyword>hindcast</keyword>
+      <keyword>hydrological forecasting</keyword>
+      <keyword>near-term iterative forecasting cycle</keyword>
+      <keyword>null model</keyword>
+      <keyword>uncertainty propagation</keyword>
+      <keyword>uncertainty partitioning</keyword>
+      <keyword>water quantity</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>freshwater</keyword>
+      <keyword>water quality</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.&#13;
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>area represented in literature review</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-160.0</westBoundingCoordinate>
+          <eastBoundingCoordinate>159.0</eastBoundingCoordinate>
+          <northBoundingCoordinate>70.0</northBoundingCoordinate>
+          <southBoundingCoordinate>-70.0</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2017-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2022-02-17</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>complete</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Cayelan</givenName>
+        <givenName>C.</givenName>
+        <surName>Carey</surName>
+      </individualName>
+      <organizationName>Virginia Tech</organizationName>
+      <electronicMailAddress>cayelan@vt.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-8835-4476</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>We conducted a state-of-the-art literature review (sensu Grant and Booth 2009) of freshwater forecasting over the past five years to assess the state of the field, recent progress, and ongoing challenges. First, we conducted a search using the Web of Science Core Collection database. Next we conducted a title screen, followed by an initial full-text screen, during which we assessed whether the paper presented a near-term freshwater quality forecast. We then completed in-depth analysis of each paper that passed the initial screen using a standardized matrix. Finally, we analyzed the tabular data from our matrix-based paper analysis to assess the state of near-term freshwater quality forecasting and identify areas of recent progress and ongoing challenges. Each step of the literature review process is documented in detail below. </para>
+          <para>We built our search around four concepts: forecasting, freshwater, possible freshwater forecast target variables (e.g., streamflow, harmful algal blooms), and a combined global change/resource management concept. The final search string required the title to contain a word relating to the forecasting concept and for either the title or the abstract to contain a word or phrase relating to each of the four concepts. After several trial searches, we subsequently removed "predict*" and "project*" from the forecasting concept for the abstract search only, as we found this resulted in retrieval of a large proportion of modeling studies that did not address forecasting. Our search period extended from 1 January 2017 to 17 February 2022, representing the past five years of peer-reviewed research, which is a typical approach for state-of-art reviews (Grant and Booth 2009). Together, these requirements resulted in the following final search string, with the final search conducted on 17 February 2022 yielding 963 results:</para>
+          <para>Title must include:&#13;
+(forecast* OR hindcast* OR predict* OR project*)</para>
+          <para>Title or abstract must include:&#13;
+(freshwater OR hydrology OR hydrodynamics OR aquatic OR stream* OR river OR lake OR reservoir OR groundwater) AND (forecast* OR hindcast*) AND (fish OR algae OR phytoplankton OR zooplankton OR plankton OR nitrate OR ammoni* OR nitrogen OR phosphate OR phosphorus OR "dissolved gas" OR "dissolved gasses" OR "dissolved gases" OR "carbon dioxide" OR methane OR nutrient* OR temperature OR communit* OR biodiversity OR flow OR streamflow OR "water quality" OR flood OR hydrology OR hydrodynamics OR "algal bloom" OR "dead zone" OR "dissolved oxygen" OR salmon OR "benthic macroinvertebrate" OR "benthic macroinvertebrates" OR toxin OR cyanobacteria* OR chem* OR biogeochem* OR flux*) AND (("global change" OR "climate change" OR climate OR "global warming" OR "global cooling" OR "carbon cycle" OR "carbon cycling" OR "greenhouse gas" OR "greenhouse gasses" OR "greenhouse gases" OR hypoxia OR brownification OR "invasive species" OR "land use" OR "nutrient pollution" OR microplastics OR biodiversity OR "emerging diseases" OR antibiotics OR salinization OR eutrophication OR anthrop*) OR ("resource manager" OR "resource management" OR "freshwater resource" OR "freshwater resources" OR "ecosystem service" OR "ecosystem services" OR "water treatment" OR "drinking water" OR "water supply" OR "lake manager" OR "lake management" OR "river management" OR "river manager" OR "water manager" OR "water management" OR "end user" OR "end-user" OR "decision-making" OR "decision support" OR conservation OR "water policy" OR policymaker* OR "water professional" OR "water professionals" OR "water resource" OR "water resources" OR stakeholder* OR research*))</para>
+          <para>Second, we screened paper titles and text for relevance and basic information regarding forecasts. The title screen was conducted by M.E.L. and resulted in elimination of 250 papers, leaving 713 papers for the initial full-text screen. Examples of papers eliminated during the title screen include papers forecasting vehicular traffic flow and papers forecasting atmospheric rivers, which are a meteorological phenomenon. The initial screen was also conducted by M.E.L., with 231 (~ one third) abstracts double-screened by D.W.H., C.C.C., and R.Q.T. to ensure agreement amongst co-authors regarding interpretation of the initial screen criteria. The initial screen was conducted using a standardized questionnaire comprising the following questions:</para>
+          <para>1. Is the study ecosystem an inland waterbody (salty lakes, lagoons, swamps, wetlands are permissible, coastal oceans and estuaries are not permissible)? For studies forecasting runoff or drought/flood risk, there must be some representation of an inland waterbody in the modeling approach.</para>
+          <para>2. Are the only focal variables some combination of streamflow, inflow, or stream or river discharge, water level or flood risk (i.e., water quantity)?</para>
+          <para>3. Is the study presenting a forecast, nowcast, or hindcast (defined as a prediction of future conditions from the perspective of the model)?</para>
+          <para>4. If the study is a forecast, nowcast, or hindcast, is uncertainty specified?</para>
+          <para>5. If the study is a forecast, nowcast, or hindcast, what modeling approach is used (see Table 2 for list of modeling approaches)?</para>
+          <para>6. If the study is a forecast, nowcast, or hindcast, is the forecast/hindcast/nowcast near-term, defined as having a minimum forecast horizon _ 10 yr?</para>
+          <para>Following the initial screen, we conducted in-depth analysis of all identified near-term freshwater quality forecasting papers (n = 16) using a standardized matrix. Each paper was double-screened by M.E.L. and D.W.H., and any discrepancies regarding entries to the matrix were resolved through discussion. </para>
+          <para>Questions included in standardized matrix analysis of near-term freshwater quality forecasting papers:</para>
+          <para>Forecast variables, scales, models, and skill:</para>
+          <para>What is the forecast ecosystem? Use the term the authors use in the paper.&#13;
+Is the forecast targeting a physical, chemical, or biological variable, or some combination of the three?</para>
+          <para>List the target forecast variable(s), separated by commas (e.g., DOC concentration, streamflow).</para>
+          <para>What is the minimum forecast horizon in days?</para>
+          <para>What is the maximum forecast horizon in days?</para>
+          <para>List the forecast skill metric(s) used, separated by commas (e.g., R2, RMSE); leave blank if forecast not assessed.</para>
+          <para>Does the paper include a multi-model (2 or more models) comparison?</para>
+          <para>Does the paper include a simple null model, defined as either a persistence model, the historical mean (climatology), or a first-order autoregressive model?</para>
+          <para>How is uncertainty incorporated? Options are following (Dietze et al. 2021): present = The model contains this concept (e.g. the model has parameters), but the values used are not derived from data and no uncertainty is represented (e.g. spin-up initial conditions, drivers are scenarios, hand-tuned single-value parameters); data_driven = The model contains this concept and the inputs are data driven but uncertainty in this input is not explicitly propagated into predictions (e.g. calibrated model parameters, a single time series of observed meteorological driver data). For sake of internal consistency, quantitative forecasts of other variables that are used as inputs into ecological forecasts (e.g. weather forecasts) should be treated as data.; propagates = The model propagates uncertainty about this term into forecasts. The most common example of this is a model run multiple times (i.e. ensemble) that samples the distributions of parameters, initial conditions, or drivers. Alternatively, one might be using an analytical approach to estimate how input uncertainties for a specific term translates into output uncertainties.; assimilates = The model iteratively updates this term through data assimilation. An example would be using a formal variational (e.g. 4DVar) or ensemble (EnKF, PF) data assimilation approach. For simpler models, this would also include iteratively refitting the whole model in light of new data.</para>
+          <para>Forecast infrastructure and workflows:</para>
+          <para>Is the forecast iterative, defined as regularly updated and re-issued when new data become available?</para>
+          <para>Is the forecast described by the authors as automated, meaning it can be reissued without manual intervention by a human?</para>
+          <para>Is the forecast archived? Select yes if the archiving is noted in the text, otherwise select no/don't know.</para>
+          <para>Human dimensions of forecasts:</para>
+          <para>What is the stated motivation for forecast development? Be brief; copy-pasting in quotations is fine but indicate this using quotation marks (" "); leave blank if not stated.</para>
+          <para>Who is the stated end user? Spell out acronyms; leave blank if there isn't one.</para>
+          <para>How were end users/stakeholders engaged in development? Be brief; leave blank if not applicable.</para>
+          <para>Finally, we analyzed our tabular data from both the initial screen of freshwater forecasts and matrix analysis of near-term freshwater quality forecasts to assess the state of the field of freshwater forecasting as well recent progress and ongoing opportunities following our focal questions. All analysis code is available on Github (https://github.com/melofton/freshwater-forecasting-review) and published with a DOI on Zenodo [placeholder for Zenodo DOI].</para>
+          <para>References:</para>
+          <para>Dietze, Michael, R. Q. Thomas, J. Peters, and C. Boettiger. 2021. "A Community Convention for Ecological Forecasting: Output Files and Metadata." EcoEvoRxiv Preprints. 2021. https://ecoevorxiv.org/9dgtq/.</para>
+          <para>Grant, Maria J., and Andrew Booth. 2009. "A Typology of Reviews: An Analysis of 14 Review Types and Associated Methodologies." Health Information and Libraries Journal 26 (2): 91-108.</para>
+          <para/>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>MSA: Macrosystems EDDIE: An undergraduate training program in macrosystems science and ecological forecasting</title>
+      <personnel>
+        <individualName>
+          <givenName>Cayelan</givenName>
+          <givenName>C.</givenName>
+          <surName>Carey</surName>
+        </individualName>
+        <organizationName>Virginia Tech</organizationName>
+        <electronicMailAddress>cayelan@vt.edu</electronicMailAddress>
+        <userId directory="https://orcid.org">https://orcid.org/0000-0001-8835-4476</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>National Science Foundation 1926050</funding>
+      <relatedProject>
+        <title>Collaborative Research: CIBR: Cyberinfrastructure Enabling End-to-End Workflows for Aquatic Ecosystem Forecasting</title>
+        <personnel>
+          <individualName>
+            <givenName>Cayelan</givenName>
+            <givenName>C.</givenName>
+            <surName>Carey</surName>
+          </individualName>
+          <organizationName>Virginia Tech</organizationName>
+          <electronicMailAddress>cayelan@vt.edu</electronicMailAddress>
+          <userId directory="https://orcid.org">https://orcid.org/0000-0001-8835-4476</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Science Foundation 1933016</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>NEON RCN: The Ecological Forecasting Initiative RCN: Using NEON-enabled near-term forecasting to synthesize our understanding of predictability across ecological systems and scales</title>
+        <personnel>
+          <individualName>
+            <givenName>R. Quinn</givenName>
+            <surName>Thomas</surName>
+          </individualName>
+          <organizationName>Virginia Tech</organizationName>
+          <electronicMailAddress>rqthomas@vt.edu</electronicMailAddress>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Science Foundation 1926388</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>freshwater-forecasting-review-results.csv</entityName>
+      <entityDescription>Freshwater forecasting review results</entityDescription>
+      <physical>
+        <objectName>freshwater-forecasting-review-results.csv</objectName>
+        <size unit="bytes">3758658</size>
+        <authentication method="MD5">0a857e12c2742019aa4e8b3ddfa48bf9</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Publication Type</attributeName>
+          <attributeDefinition>reports whether a publication is a book, book series, journal article, or conference proceedings</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>book</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>conference proceedings</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>J</code>
+                    <definition>journal</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>series</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Authors</attributeName>
+          <attributeDefinition>authors of paper</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>authors of paper</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Book Authors</attributeName>
+          <attributeDefinition>authors of book, if applicable</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>authors of book, if applicable</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Book Editors</attributeName>
+          <attributeDefinition>editors of book, if applicable</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>editors of book, if applicable</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Book Group Authors</attributeName>
+          <attributeDefinition>organization or institution credited with book authorship</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>organization or institution credited with book authorship</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Author Full Names</attributeName>
+          <attributeDefinition>full names of authors of paper</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>full names of authors of paper</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Book Author Full Names</attributeName>
+          <attributeDefinition>full names of authors of book, if applicable</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>full names of authors of book, if applicable</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Group Authors</attributeName>
+          <attributeDefinition>organization or institution credited with paper authorship</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>organization or institution credited with paper authorship</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Article Title</attributeName>
+          <attributeDefinition>title of paper</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>title of paper</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Source Title</attributeName>
+          <attributeDefinition>title of paper source, most often the journal in which it was published</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>title of paper source, most often the journal in which it was published</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Book Series Title</attributeName>
+          <attributeDefinition>title of book series, if applicable</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>title of book series, if applicable</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Book Series Subtitle</attributeName>
+          <attributeDefinition>subtitle of book series, if applicable</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>subtitle of book series, if applicable</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Language</attributeName>
+          <attributeDefinition>language of paper as originally published</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>language of paper as originally published</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Document Type</attributeName>
+          <attributeDefinition>the document type of a paper</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the document type of a paper</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Conference Title</attributeName>
+          <attributeDefinition>title of conference at which paper was presented, if applicable</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>title of conference at which paper was presented, if applicable</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Conference Date</attributeName>
+          <attributeDefinition>date of conference at which paper was presented, if applicable</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MMM DD-DD YYYY</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Conference Location</attributeName>
+          <attributeDefinition>location of conference at which paper was presented, if applicable</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>location of conference at which paper was presented, if applicable</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Conference Sponsor</attributeName>
+          <attributeDefinition>sponsor of conference at which paper was presented, if applicable</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sponsor of conference at which paper was presented, if applicable</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Conference Host</attributeName>
+          <attributeDefinition>host of conference at which paper was presented, if applicable</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>host of conference at which paper was presented, if applicable</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Author Keywords</attributeName>
+          <attributeDefinition>keywords listed by the authors</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>keywords listed by the authors</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Keywords Plus</attributeName>
+          <attributeDefinition>index terms generated from the title of the article</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>index terms generated from the title of the article</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Abstract</attributeName>
+          <attributeDefinition>article abstract</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>article abstract</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Addresses</attributeName>
+          <attributeDefinition>author addresses</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>author addresses</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Affiliations</attributeName>
+          <attributeDefinition>author affiliations</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>author affiliations</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Reprint Addresses</attributeName>
+          <attributeDefinition>the address of the corresponding author</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the address of the corresponding author</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Email Addresses</attributeName>
+          <attributeDefinition>author email addresses</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>author email addresses</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Researcher Ids</attributeName>
+          <attributeDefinition>individual author identifiers that are not ORCIDs</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>individual author identifiers that are not ORCIDs</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ORCIDs</attributeName>
+          <attributeDefinition>author ORCIDs</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>author ORCIDs</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Funding Orgs</attributeName>
+          <attributeDefinition>organizations funding the work presented in the paper</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>organizations funding the work presented in the paper</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Funding Text</attributeName>
+          <attributeDefinition>acknowledgements text from paper listing funding sources</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>acknowledgements text from paper listing funding sources</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cited Reference Count</attributeName>
+          <attributeDefinition>number of documents cited by the current paper</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">729</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Times Cited, WoS Core</attributeName>
+          <attributeDefinition>number of times paper was cited by products within the Web of Science database</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">286</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Times Cited, All Databases</attributeName>
+          <attributeDefinition>number of times paper was cited across all databases accessible by Web of Science</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">291</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>180 Day Usage Count</attributeName>
+          <attributeDefinition>number of times paper was accessed in last 180 days</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">57</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Since 2013 Usage Count</attributeName>
+          <attributeDefinition>number of times paper was accessed since 2013</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">452</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Publisher</attributeName>
+          <attributeDefinition>publisher of paper</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>publisher of paper</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Publisher City</attributeName>
+          <attributeDefinition>city of paper publisher</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>city of paper publisher</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Publisher Address</attributeName>
+          <attributeDefinition>address of paper publisher</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>address of paper publisher</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ISSN</attributeName>
+          <attributeDefinition>8-digit International Standard Serial Number</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>8-digit International Standard Serial Number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>eISSN</attributeName>
+          <attributeDefinition>8-digit International Standard Serial Number for the electronic version of a record</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>8-digit International Standard Serial Number for the electronic version of a record</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ISBN</attributeName>
+          <attributeDefinition>13-digit International Standard Book Number, if applicable</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>13-digit International Standard Book Number, if applicable</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Journal Abbreviation</attributeName>
+          <attributeDefinition>text abbreviation of journal name where record is published</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text abbreviation of journal name where record is published</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Journal ISO Abbreviation</attributeName>
+          <attributeDefinition>International Organization for Standardization abbreviation of journal name where record is published</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>International Organization for Standardization abbreviation of journal name where record is published</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Publication Date</attributeName>
+          <attributeDefinition>month and day (if available) of record publication</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MMM DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Publication Year</attributeName>
+          <attributeDefinition>year of record publication</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Volume</attributeName>
+          <attributeDefinition>journal volume where paper is published</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>journal volume where paper is published</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Issue</attributeName>
+          <attributeDefinition>journal issue where paper is published</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>journal issue where paper is published</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Part Number</attributeName>
+          <attributeDefinition>journal part or number where paper is published, if applicable</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>journal part or number where paper is published, if applicable</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Supplement</attributeName>
+          <attributeDefinition>supplement number, if applicable</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>supplement number, if applicable</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Special Issue</attributeName>
+          <attributeDefinition>indicates whether the record was part of a journal special issue</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>SI</code>
+                    <definition>paper was part of a journal special issue</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Start Page</attributeName>
+          <attributeDefinition>page number of first page of record</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>page number of first page of record</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>End Page</attributeName>
+          <attributeDefinition>page number of last page of record</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>page number of last page of record</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Article Number</attributeName>
+          <attributeDefinition>article number within journal, if applicable</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>article number within journal, if applicable</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DOI</attributeName>
+          <attributeDefinition>digitial object identifier for record</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>digitial object identifier for record</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Book DOI</attributeName>
+          <attributeDefinition>digital object identifier for book, if applicable</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>digital object identifier for book, if applicable</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Early Access Date</attributeName>
+          <attributeDefinition>date record was avaiable via early access</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MMM YYYY</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Number of Pages</attributeName>
+          <attributeDefinition>page length of record</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">3</minimum>
+                  <maximum exclusive="false">48</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>WoS Categories</attributeName>
+          <attributeDefinition>subject categories for record assigned by Web of Science</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>subject categories for record assigned by Web of Science</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Web of Science Index</attributeName>
+          <attributeDefinition>index from which abstract was extracted</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>index from which abstract was extracted</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Research Areas</attributeName>
+          <attributeDefinition>subject areas of research</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>subject areas of research</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>IDS Number</attributeName>
+          <attributeDefinition>unique identifier for journal issue where article was published, if applicable</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique identifier for journal issue where article was published, if applicable</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>UT (Unique WOS ID)</attributeName>
+          <attributeDefinition>a record identifier unique to Web of Science</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>a record identifier unique to Web of Science</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Pubmed Id</attributeName>
+          <attributeDefinition>ID number for records of documents that have corresponding records on MEDLINE</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>ID number for records of documents that have corresponding records on MEDLINE</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Open Access Designations</attributeName>
+          <attributeDefinition>open access designations assigned by Web of Science following https://clarivate.com/blog/a-researchers-complete-guide-to-open-access-papers/</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>open access designations assigned by Web of Science following https://clarivate.com/blog/a-researchers-complete-guide-to-open-access-papers/</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date of Export</attributeName>
+          <attributeDefinition>date record was retrieved from Web of Science</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-mm-dd</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>result_num</attributeName>
+          <attributeDefinition>unique identifier for freshwater forecasting analysis</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique identifier for freshwater forecasting analysis</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>title_screen</attributeName>
+          <attributeDefinition>indicates whether paper passed title screen of freshwater forecasting analysis</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>n</code>
+                    <definition>paper did not pass title screen</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>y</code>
+                    <definition>paper passed title screen</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>freshwater</attributeName>
+          <attributeDefinition>indicates whether research is regarding a freshwater ecosystem</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>paper does not present freshwater research</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>yes; groundwater</code>
+                    <definition>paper presents freshwater research about groundwater</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>yes; surface water</code>
+                    <definition>paper present freshwater research about surface water</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>forecast</attributeName>
+          <attributeDefinition>indicates whether a paper presents prediction of the future</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>can't tell</code>
+                    <definition>whether the paper presents a prediction into the future was not determined because the paper was not available in English</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>forecast</code>
+                    <definition>paper presents a prediction into the future</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>hindcast</code>
+                    <definition>paper presents a prediction into the future from the perspective of the model for a time period that is now past</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>none of the above</code>
+                    <definition>paper does not present a prediction into the future</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>nowcast</code>
+                    <definition>paper presents a prediction of current conditions at a spatial point or region for which data is not available</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>uncertainty_present</attributeName>
+          <attributeDefinition>indicates whether a paper specifies uncertainty of a future prediction</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>can't tell</code>
+                    <definition>whether the forecast specifies uncertainty was not determined because the paper was not available in English</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>the forecast does not specify uncertainty</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>the forecast specifies uncertainty</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>nearterm</attributeName>
+          <attributeDefinition>indicates whether the minimum horizon of a future prediction is less than or equal to 10 years</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>can't tell</code>
+                    <definition>whether the minimum forecast horizon is less than or equal to 10 years was not determined because the paper was not available in English</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>the minimum forecast is greater than 10 years</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>the minimum forecast horizon is less than or equal to 10 years</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>model_approach</attributeName>
+          <attributeDefinition>indicates the type of model used by the authors to make future predictions</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>indicates the type of model used by the authors to make future predictions</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hydrological</attributeName>
+          <attributeDefinition>indicates whether the only target variable for future predictions is hydrological, e.g., river flow, water level</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>paper includes target variables that are not hydrological</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>paper includes only hydrological target variables (e.g., streamflow, water level)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ecosystem</attributeName>
+          <attributeDefinition>what type of ecosystem is the research conducted in</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>what type of ecosystem is the research conducted in</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>other_ecosystem</attributeName>
+          <attributeDefinition>identifies the focal ecosystem of the paper if it cannot be categorized according to the 'ecosystem' column</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>identifies the focal ecosystem of the paper if it cannot be categorized according to the 'ecosystem' column</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>phys_chem_bio</attributeName>
+          <attributeDefinition>indicates whether the target forecast variable is physical, chemical, biological, or whether the paper includes multiple papers across these categories</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>indicates whether the target forecast variable is physical, chemical, biological, or whether the paper includes multiple papers across these categories</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>forecast_vars</attributeName>
+          <attributeDefinition>lists the target forecast variables</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>lists the target forecast variables</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>min_horizon_days</attributeName>
+          <attributeDefinition>the minimum forecast horizon in days</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">3650</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>max_horizon_days</attributeName>
+          <attributeDefinition>the maximum forecast horizon in days</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.17</minimum>
+                  <maximum exclusive="false">20075</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>skill_metrics</attributeName>
+          <attributeDefinition>lists the forecast skill assessment metrics used in the paper; see Table 2 of associated freshwater forecasting review publication for definition of abbreviations</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>lists the forecast skill assessment metrics used in the paper; see Table 2 of associated freshwater forecasting review publication for definition of abbreviations</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>model_comparison</attributeName>
+          <attributeDefinition>indicates whether the paper compared the focal forecast model to another model (but not necessarily a null model)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>the focal forecast model is not compared to other models</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>the focal forecast model is compared to other models</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>simple_null_model</attributeName>
+          <attributeDefinition>indicates whether the paper compared the focal forecast model to a null model, defined as a persistance, first-order autoregressive, or historical mean model</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>the focal forecast model was not compared to a simple null model, defined as a persistance, historical mean, or first order autoregressive model</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>the focal forecast model was compared to a simple null model, defined as a persistance, historical mean, or first order autoregressive model</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>uncertainty_method</attributeName>
+          <attributeDefinition>indicates the method of uncertainty specification used in the paper</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>assimilates</code>
+                    <definition>The model iteratively updates this term through data assimilation. An example would be using a formal variational (e.g. 4DVar) or ensemble (EnKF, PF) data assimilation approach. For simpler models, this would also include iteratively refitting the whole model in light of new data.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>data_driven</code>
+                    <definition>The model contains this concept and the inputs are data driven but uncertainty in this input is not explicitly propagated into predictions (e.g. calibrated model parameters, a single time series of observed meteorological driver data). For sake of internal consistency, quantitative forecasts of other variables that are used as inputs into ecological forecasts (e.g. weather forecasts) should be treated as data.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>present</code>
+                    <definition>The model contains this concept (e.g. the model has parameters), but the values used are not derived from data and no uncertainty is represented (e.g. spin-up initial conditions, drivers are scenarios, hand-tuned single-value parameters)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>propagates</code>
+                    <definition>The model propagates uncertainty about this term into forecasts. The most common example of this is a model run multiple times (i.e. ensemble) that samples the distributions of parameters, initial conditions, or drivers. Alternatively, one might be using an analytical approach to estimate how input uncertainties for a specific term translates into output uncertainties.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>iterative</attributeName>
+          <attributeDefinition>indicates whether or not the forecast is iterative</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>forecast is not iteratively produced</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>forecast is iteratively produced</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>automated</attributeName>
+          <attributeDefinition>indicates whether or not the forecast workflow is identified as automated by the authors, where automated defined as being triggered without a human taking action</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>forecast workflow not automated</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>forecast workflow automated</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>archived</attributeName>
+          <attributeDefinition>indicates whether forecast output is stated as being archived by the authors</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>no/don't know</code>
+                    <definition>forecast output archiving not reported by authors</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>forecast output archiving reported by authors</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>motivation</attributeName>
+          <attributeDefinition>summaries or direct quotations extracted from the paper characterizing the motivation for taking a forecasting approach to solve the research problem</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>summaries or direct quotations extracted from the paper characterizing the motivation for taking a forecasting approach to solve the research problem</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>end_user</attributeName>
+          <attributeDefinition>list the end users of the forecast as stated by the authors, if applicable</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>list the end users of the forecast as stated by the authors, if applicable</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>engagement</attributeName>
+          <attributeDefinition>characterizes how end users were engaged according to the authors</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>characterizes how end users were engaged according to the authors</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>964</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Fig5_data.csv</entityName>
+      <entityDescription>Data table to creat Fig. 4</entityDescription>
+      <physical>
+        <objectName>Fig5_data.csv</objectName>
+        <size unit="bytes">10815</size>
+        <authentication method="MD5">e31e2fa0b317bc939c33def2213c1754</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>result_number</attributeName>
+          <attributeDefinition>unique identifier for papers retrieved in literature search</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">826</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>article_title</attributeName>
+          <attributeDefinition>title of article</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>title of article</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>target_variables</attributeName>
+          <attributeDefinition>target forecast variables</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>target forecast variables</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>title_screen</attributeName>
+          <attributeDefinition>y or n depending on whether paper passed title screen for relevance</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>y</code>
+                    <definition>paper passed title screen for relevancy</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>paper title is not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>83</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>EDI_data_QAQC_and_formatting.R</entityName>
+      <entityDescription>data aggregation and quality control script</entityDescription>
+      <physical>
+        <objectName>EDI_data_QAQC_and_formatting.R</objectName>
+        <size unit="bytes">8197</size>
+        <authentication method="MD5">75c303dc42a68e084ee7f4b556a2ac6f</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/plain</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor>
+        <app>EMLassemblyline</app>
+        <release>3.5.4</release>
+      </emlEditor>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
